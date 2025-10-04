@@ -1,6 +1,12 @@
-import Bg from '../assets/bg.jpg';
+import { useEffect } from "react";
 
 export default function Home() {
+
+    useEffect(() => {
+        document.title = "Home | My Portfolio";
+    }, []);
+
+
     return (
         <div className="p-3 md:p-8 w-[90vw] mx-auto">
             <section id="home" className="mb-8">

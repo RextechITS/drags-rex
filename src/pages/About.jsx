@@ -1,4 +1,12 @@
+import { useEffect } from "react";
+
 export default function About() {
+
+    useEffect(() => {
+        document.title = "About | My Portfolio";
+    }, []);
+
+
     return (
         <div className="p-8 w-[90vw] mx-auto">
             <section id="about" className="mb-8">
