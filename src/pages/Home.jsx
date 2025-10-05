@@ -33,19 +33,19 @@ export default function Home() {
             </section>
 
             <section className="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-10">
-                <article className="bg-[#3a2b71] text-white p-6 rounded-2xl shadow-lg hover:shadow-xl transition-shadow duration-300 space-y-4">
+                <article data-aos="fade-up" className="bg-[#3a2b71] text-white p-6 rounded-2xl shadow-lg hover:shadow-xl transition-shadow duration-300 space-y-4">
                     <svg width="60px" height="60px" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg"><path fill="#2563eb" d="M600.704 64a32 32 0 0 1 30.464 22.208l35.2 109.376c14.784 7.232 28.928 15.36 42.432 24.512l112.384-24.192a32 32 0 0 1 34.432 15.36L944.32 364.8a32 32 0 0 1-4.032 37.504l-77.12 85.12a357.12 357.12 0 0 1 0 49.024l77.12 85.248a32 32 0 0 1 4.032 37.504l-88.704 153.6a32 32 0 0 1-34.432 15.296L708.8 803.904c-13.44 9.088-27.648 17.28-42.368 24.512l-35.264 109.376A32 32 0 0 1 600.704 960H423.296a32 32 0 0 1-30.464-22.208L357.696 828.48a351.616 351.616 0 0 1-42.56-24.64l-112.32 24.256a32 32 0 0 1-34.432-15.36L79.68 659.2a32 32 0 0 1 4.032-37.504l77.12-85.248a357.12 357.12 0 0 1 0-48.896l-77.12-85.248A32 32 0 0 1 79.68 364.8l88.704-153.6a32 32 0 0 1 34.432-15.296l112.32 24.256c13.568-9.152 27.776-17.408 42.56-24.64l35.2-109.312A32 32 0 0 1 423.232 64H600.64zm-23.424 64H446.72l-36.352 113.088-24.512 11.968a294.113 294.113 0 0 0-34.816 20.096l-22.656 15.36-116.224-25.088-65.28 113.152 79.68 88.192-1.92 27.136a293.12 293.12 0 0 0 0 40.192l1.92 27.136-79.808 88.192 65.344 113.152 116.224-25.024 22.656 15.296a294.113 294.113 0 0 0 34.816 20.096l24.512 11.968L446.72 896h130.688l36.48-113.152 24.448-11.904a288.282 288.282 0 0 0 34.752-20.096l22.592-15.296 116.288 25.024 65.28-113.152-79.744-88.192 1.92-27.136a293.12 293.12 0 0 0 0-40.256l-1.92-27.136 79.808-88.128-65.344-113.152-116.288 24.96-22.592-15.232a287.616 287.616 0 0 0-34.752-20.096l-24.448-11.904L577.344 128zM512 320a192 192 0 1 1 0 384 192 192 0 0 1 0-384zm0 64a128 128 0 1 0 0 256 128 128 0 0 0 0-256z" /></svg>
                     <h3 className="text-2xl font-medium">Deeper Skill Sets</h3>
                     <p className="text-[#b4afc6]">I bring a well-rounded and evolving skillset that goes beyond surface-level knowledge. From building dynamic websites with WordPress, React, and modern front-end tools to optimizing performance, databases, and SEO, I combine technical expertise with problem-solving ability to deliver robust, scalable solutions.</p>
                 </article>
 
-                <article className="bg-[#3a2b71] text-white p-6 rounded-2xl shadow-lg hover:shadow-xl transition-shadow duration-300 space-y-4">
+                <article data-aos="fade-down" className="bg-[#3a2b71] text-white p-6 rounded-2xl shadow-lg hover:shadow-xl transition-shadow duration-300 space-y-4">
                     <svg width="60px" height="60px" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill="#2563eb"><path d="M14.5 4H11V2.5l-.5-.5h-5l-.5.5V4H1.5l-.5.5v8l.5.5h13l.5-.5v-8l-.5-.5zM6 3h4v1H6V3zm8 2v.76L10 8v-.5L9.51 7h-3L6 7.5V8L2 5.71V5h12zM9 8v1H7V8h2zm-7 4V6.86l4 2.29v.35l.5.5h3l.5-.5v-.31l4-2.28V12H2z" /></svg>
                     <h3 className="text-2xl font-medium">Ceative Work</h3>
                     <p className="text-[#b4afc6]">My approach blends design thinking with development precision. I enjoy transforming ideas into engaging digital experiences, whether through clean code, intuitive user interfaces, or seamless workflows. Creativity drives my process, allowing me to craft solutions that are both functional and inspiring.</p>
                 </article>
 
-                <article className="bg-[#3a2b71] text-white p-6 rounded-2xl shadow-lg hover:shadow-xl transition-shadow duration-300 space-y-4">
+                <article data-aos="fade-up" className="bg-[#3a2b71] text-white p-6 rounded-2xl shadow-lg hover:shadow-xl transition-shadow duration-300 space-y-4">
                     <svg width="60px" height="60px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 
                         <title>diamond</title>
@@ -72,7 +72,7 @@ export default function Home() {
                     <p className="text-[#b4afc6]">Consistency, focus, and passion are at the core of my work. I commit fully to every project—big or small—ensuring high-quality delivery, attention to detail, and long-term value. I believe in pushing boundaries, learning continuously, and always striving to do better.</p>
                 </article>
 
-                <article className="bg-[#3a2b71] text-white p-6 rounded-2xl shadow-lg hover:shadow-xl transition-shadow duration-300 space-y-4">
+                <article data-aos="fade-down" className="bg-[#3a2b71] text-white p-6 rounded-2xl shadow-lg hover:shadow-xl transition-shadow duration-300 space-y-4">
                     <svg fill="#2563eb" width="60px" height="60px" viewBox="0 0 36 36" version="1.1" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                         <title>users-solid</title>
                         <path class="clr-i-solid clr-i-solid-path-1" d="M12,16.14q-.43,0-.87,0a8.67,8.67,0,0,0-6.43,2.52l-.24.28v8.28H8.54v-4.7l.55-.62.25-.29a11,11,0,0,1,4.71-2.86A6.59,6.59,0,0,1,12,16.14Z"></path><path class="clr-i-solid clr-i-solid-path-2" d="M31.34,18.63a8.67,8.67,0,0,0-6.43-2.52,10.47,10.47,0,0,0-1.09.06,6.59,6.59,0,0,1-2,2.45,10.91,10.91,0,0,1,5,3l.25.28.54.62v4.71h3.94V18.91Z"></path><path class="clr-i-solid clr-i-solid-path-3" d="M11.1,14.19c.11,0,.2,0,.31,0a6.45,6.45,0,0,1,3.11-6.29,4.09,4.09,0,1,0-3.42,6.33Z"></path><path class="clr-i-solid clr-i-solid-path-4" d="M24.43,13.44a6.54,6.54,0,0,1,0,.69,4.09,4.09,0,0,0,.58.05h.19A4.09,4.09,0,1,0,21.47,8,6.53,6.53,0,0,1,24.43,13.44Z"></path><circle class="clr-i-solid clr-i-solid-path-5" cx="17.87" cy="13.45" r="4.47"></circle><path class="clr-i-solid clr-i-solid-path-6" d="M18.11,20.3A9.69,9.69,0,0,0,11,23l-.25.28v6.33a1.57,1.57,0,0,0,1.6,1.54H23.84a1.57,1.57,0,0,0,1.6-1.54V23.3L25.2,23A9.58,9.58,0,0,0,18.11,20.3Z"></path>
@@ -82,7 +82,7 @@ export default function Home() {
                     <p className="text-[#b4afc6]">Great work is built on collaboration. I thrive in team environments, share knowledge openly, and value communication as much as technical execution. Partnering with others—clients, designers, or developers—enables me to achieve outcomes that exceed expectations.</p>
                 </article>
 
-                <article className="bg-[#3a2b71] text-white p-6 rounded-2xl shadow-lg hover:shadow-xl transition-shadow duration-300 space-y-4">
+                <article data-aos="fade-up" className="bg-[#3a2b71] text-white p-6 rounded-2xl shadow-lg hover:shadow-xl transition-shadow duration-300 space-y-4">
                     <svg width="60px" height="60px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                         <path fill="#2563eb" d="M10.3 8.2l-0.9 0.9 0.9 0.9-1.2 1.2 4.3 4.3c0.6 0.6 1.5 0.6 2.1 0s0.6-1.5 0-2.1l-5.2-5.2zM14.2 15c-0.4 0-0.8-0.3-0.8-0.8 0-0.4 0.3-0.8 0.8-0.8s0.8 0.3 0.8 0.8c0 0.5-0.3 0.8-0.8 0.8z"></path>
                         <path fill="#2563eb" d="M3.6 8l0.9-0.6 1.5-1.7 0.9 0.9 0.9-0.9-0.1-0.1c0.2-0.5 0.3-1 0.3-1.6 0-2.2-1.8-4-4-4-0.6 0-1.1 0.1-1.6 0.3l2.9 2.9-2.1 2.1-2.9-2.9c-0.2 0.5-0.3 1-0.3 1.6 0 2.1 1.6 3.7 3.6 4z"></path>
@@ -92,7 +92,7 @@ export default function Home() {
                     <p className="text-[#b4afc6]">I thrive on challenges and see every project as an opportunity to innovate. Whether it’s debugging complex issues, customizing plugins, or creating unique design systems, I approach problems with creativity and persistence to find the most effective solutions.</p>
                 </article>
 
-                <article className="bg-[#3a2b71] text-white p-6 rounded-2xl shadow-lg hover:shadow-xl transition-shadow duration-300 space-y-4">
+                <article data-aos="fade-down" className="bg-[#3a2b71] text-white p-6 rounded-2xl shadow-lg hover:shadow-xl transition-shadow duration-300 space-y-4">
                     <svg fill="#2563eb" width="60px" height="60px" viewBox="0 0 512 512" version="1.1" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 
                         <g id="A_-_59_x2C__growth_x2C__grow_x2C__hand_x2C__success">
