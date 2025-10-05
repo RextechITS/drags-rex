@@ -49,7 +49,7 @@ export default function Header() {
     const [isOpen, setIsOpen] = useState(false);
 
     return (
-        <header className="px-6 bg-blue-600 text-white p-4 flex justify-between items-center md:px-10">
+        <header className="px-6 lg:px-60 md:py-6 bg-blue-600 text-white p-4 flex justify-between items-center ">
             {/* <h1 className="text-2xl font-bold"> <Link to="/">My Portfolio</Link></h1> */}
             <Link to="/"><img src="/logo.png" alt="My Portfolio" className="w-20 h-auto aspect-auto object-fit no-repeat center object-cover" /></Link>
 
@@ -105,8 +105,8 @@ export default function Header() {
 
             {/* {isOpen && ( */}
             <nav className={`md:hidden absolute w-full h-[50vh] top-16 left-0 bg-blue-700 px-5 backdrop-blur-2xl transform transition-all duration-700 ease-in-out 
-    ${isOpen ? "opacity-100 translate-y-0" : "opacity-0 -translate-y-10 pointer-events-none"}
-  `} >
+                    ${isOpen ? "opacity-100 translate-y-0" : "opacity-0 -translate-y-10 pointer-events-none"}
+                `} >
                 <ul className="flex flex-col gap-4 mt-2" >
                     <li><NavLink to="/" className={({ isActive }) => isActive ? " text-black font-bold" : ""} onClick={() => setIsOpen(false)}>Home</NavLink></li>
                     <li><NavLink to="/about" className={({ isActive }) => isActive ? "text-black font-bold" : ""} onClick={() => setIsOpen(false)}>About</NavLink></li>
