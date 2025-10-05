@@ -50,7 +50,6 @@ export default function Header() {
 
     return (
         <header className="w-full fixed px-6 lg:px-60 md:py-6 bg-blue-600 text-white p-4 flex justify-between items-center z-50">
-            {/* <h1 className="text-2xl font-bold"> <Link to="/">My Portfolio</Link></h1> */}
             <Link to="/"><img src="/logo.png" alt="My Portfolio" className="w-20 h-auto aspect-auto object-fit no-repeat center object-cover" /></Link>
 
             <nav className="hidden md:block">
@@ -96,15 +95,13 @@ export default function Header() {
                         </NavLink>
                     </li>
                 </ul>
-
             </nav>
 
-            <button className="block md:hidden text-xl font-bold" onClick={() => setIsOpen(!isOpen)}>☰</button>
+            <button className="block md:hidden text-3xl font-bold" onClick={() => setIsOpen(!isOpen)}>
+                {isOpen ? '✼' : '☲'}
+            </button>
 
-            {/* mobile nav */}
-
-            {/* {isOpen && ( */}
-            <nav className={`md:hidden absolute w-full h-[50vh] top-16 left-0 bg-blue-700 px-5 backdrop-blur-2xl transform transition-all duration-700 ease-in-out 
+            <nav className={`md:hidden absolute w-full h-[100vh] top-16 left-0 bg-blue-700 px-5 backdrop-blur-3xl transform transition-all duration-700 ease-in-out 
                     ${isOpen ? "opacity-100 translate-y-0" : "opacity-0 -translate-y-10 pointer-events-none"}
                 `} >
                 <ul className="flex flex-col gap-4 mt-2" >
@@ -113,9 +110,7 @@ export default function Header() {
                     <li><NavLink to="/projects" className={({ isActive }) => isActive ? "text-black font-bold" : ""} onClick={() => setIsOpen(false)}>Projects</NavLink></li>
                     <li><NavLink to="/contact" className={({ isActive }) => isActive ? "text-black font-bold" : ""} onClick={() => setIsOpen(false)}>Contact</NavLink></li>
                 </ul>
-
             </nav>
-            {/* )} */}
 
         </header>
     )
