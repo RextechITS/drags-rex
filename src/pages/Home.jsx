@@ -2,7 +2,8 @@ import { Link } from "react-router-dom";
 import { useEffect } from "react";
 import Onwellooo from "../assets/Onwellooo.png";
 import mywebimage from "../assets/mywebimage.webp";
-import CountUp from "react-countup";
+// import CountUp from "react-countup";
+import Stats from "../components/Stats";
 
 export default function Home() {
 
@@ -139,9 +140,16 @@ export default function Home() {
                     <div data-aos="fade-up" className="flex-col gap-2">
                         <img src={mywebimage} alt="codes" className="cover center w-full aspect-auto" />
                         <div className="w-full text-white h-[100px] flex items-center gap-5 border-l-[15px] border-l-[#2563eb] pl-3">
-                            <p className="text-5xl font-bold"><CountUp end={12} duration={10} /> <span className="text-2xl">Successful Years</span></p>
+                            {/* <p className="text-5xl font-bold"><CountUp end={12} duration={10} /> <span className="text-2xl">Successful Years</span></p> */}
+                            <Stats end={12} duration={10} label="Successful Years" />
                         </div>
                     </div>
+
+                    <div data-aos="fade-down" className="flex flex-col gap-6 justify-center text-white">
+
+                    </div>
+
+
 
                 </div>
             </section>

@@ -4,6 +4,7 @@ import { Routes, Route, Link } from "react-router-dom";
 import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import FramerMouseMove from "./components/FramerMouseMove";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Projects from "./pages/projects";
@@ -20,7 +21,7 @@ function App() {
     <>
 
       <Header />
-
+      <FramerMouseMove />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
