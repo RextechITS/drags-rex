@@ -20,12 +20,12 @@ export default function Home() {
                     <h1 className="text-4xl lg:text-8xl text-white font-bold leading-12">Henry <span className="block text-blue-600"> Nwobodo C.</span> <span className="block text-xl font-bold"> Co-Founder <span className="text-[#2563eb]">|</span> CTO -  DragsDev</span></h1>
                     <h3 className="text-white text-2xl md:text-3xl font-bold">Frontend <span className="text-[#2563eb]">|</span> WordPress Developer</h3>
                     <p className="text-white font-medium text-base md:text-xl">I specialize in developing robust platforms, including cab booking systems, e-commerce websites, and custom business applications. My focus is on writing clean code, optimizing performance, and delivering results-driven web development.</p>
-                    <Link to="/contact" className="inline-block w-[200px] relative overflow-hidden p-5 rounded-3xl 
+                    <Link to="/contact" className="inline-block w-[200px] relative overflow-hidden p-5 rounded-3xl text-center 
                         text-white hover:text-blue-600 hover:bg-white
                         before:absolute before:inset-0 before:bg-blue-600 
                         before:origin-bottom before:scale-y-100 before:transition-transform before:duration-700
                         hover:before:scale-y-0">
-                        <span className="relative z-10 pl-6">Get Connected</span>
+                        <span className="relative z-10">Get Connected</span>
                     </Link>
                 </aside>
                 <aside>
@@ -38,7 +38,8 @@ export default function Home() {
             {/* feature section */}
             <section className="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-10">
                 <article data-aos="fade-up" className="bg-[#3a2b71] text-white p-6 rounded-2xl shadow-lg hover:shadow-xl transition-shadow duration-300 space-y-4">
-                    <svg width="60px" height="60px" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg"><path fill="#2563eb" d="M600.704 64a32 32 0 0 1 30.464 22.208l35.2 109.376c14.784 7.232 28.928 15.36 42.432 24.512l112.384-24.192a32 32 0 0 1 34.432 15.36L944.32 364.8a32 32 0 0 1-4.032 37.504l-77.12 85.12a357.12 357.12 0 0 1 0 49.024l77.12 85.248a32 32 0 0 1 4.032 37.504l-88.704 153.6a32 32 0 0 1-34.432 15.296L708.8 803.904c-13.44 9.088-27.648 17.28-42.368 24.512l-35.264 109.376A32 32 0 0 1 600.704 960H423.296a32 32 0 0 1-30.464-22.208L357.696 828.48a351.616 351.616 0 0 1-42.56-24.64l-112.32 24.256a32 32 0 0 1-34.432-15.36L79.68 659.2a32 32 0 0 1 4.032-37.504l77.12-85.248a357.12 357.12 0 0 1 0-48.896l-77.12-85.248A32 32 0 0 1 79.68 364.8l88.704-153.6a32 32 0 0 1 34.432-15.296l112.32 24.256c13.568-9.152 27.776-17.408 42.56-24.64l35.2-109.312A32 32 0 0 1 423.232 64H600.64zm-23.424 64H446.72l-36.352 113.088-24.512 11.968a294.113 294.113 0 0 0-34.816 20.096l-22.656 15.36-116.224-25.088-65.28 113.152 79.68 88.192-1.92 27.136a293.12 293.12 0 0 0 0 40.192l1.92 27.136-79.808 88.192 65.344 113.152 116.224-25.024 22.656 15.296a294.113 294.113 0 0 0 34.816 20.096l24.512 11.968L446.72 896h130.688l36.48-113.152 24.448-11.904a288.282 288.282 0 0 0 34.752-20.096l22.592-15.296 116.288 25.024 65.28-113.152-79.744-88.192 1.92-27.136a293.12 293.12 0 0 0 0-40.256l-1.92-27.136 79.808-88.128-65.344-113.152-116.288 24.96-22.592-15.232a287.616 287.616 0 0 0-34.752-20.096l-24.448-11.904L577.344 128zM512 320a192 192 0 1 1 0 384 192 192 0 0 1 0-384zm0 64a128 128 0 1 0 0 256 128 128 0 0 0 0-256z" /></svg>
+                    <svg width="60px" height="60px" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg"><path fill="#2563eb" d="M600.704 64a32 32 0 0 1 30.464 22.208l35.2 109.376c14.784 7.232 28.928 15.36 42.432 24.512l112.384-24.192a32 32 0 0 1 34.432 15.36L944.32 364.8a32 32 0 0 1-4.032 37.504l-77.12 85.12a357.12 357.12 0 0 1 0 49.024l77.12 85.248a32 32 0 0 1 4.032 37.504l-88.704 153.6a32 32 0 0 1-34.432 15.296L708.8 803.904c-13.44 9.088-27.648 17.28-42.368 24.512l-35.264 109.376A32 32 0 0 1 600.704 960H423.296a32 32 0 0 1-30.464-22.208L357.696 828.48a351.616 351.616 0 0 1-42.56-24.64l-112.32 24.256a32 32 0 0 1-34.432-15.36L79.68 659.2a32 32 0 0 1 4.032-37.504l77.12-85.248a357.12 357.12 0 0 1 0-48.896l-77.12-85.248A32 32 0 0 1 79.68 364.8l88.704-153.6a32 32 0 0 1 34.432-15.296l112.32 24.256c13.568-9.152 27.776-17.408 42.56-24.64l35.2-109.312A32 32 0 0 1 423.232 64H600.64zm-23.424 64H446.72l-36.352 113.088-24.512 11.968a294.113 294.113 0 0 0-34.816 20.096l-22.656 15.36-116.224-25.088-65.28 113.152 79.68 88.192-1.92 27.136a293.12 293.12 0 0 0 0 40.192l1.92 27.136-79.808 88.192 65.344 113.152 116.224-25.024 22.656 15.296a294.113 294.113 0 0 0 34.816 20.096l24.512 11.968L446.72 896h130.688l36.48-113.152 24.448-11.904a288.282 288.282 0 0 0 34.752-20.096l22.592-15.296 116.288 25.024 65.28-113.152-79.744-88.192 1.92-27.136a293.12 293.12 0 0 0 0-40.256l-1.92-27.136 79.808-88.128-65.344-113.152-116.288 24.96-22.592-15.232a287.616 287.616 0 0 0-34.752-20.096l-24.448-11.904L577.344 128zM512 320a192 192 0 1 1 0 384 192 192 0 0 1 0-384zm0 64a128 128 0 1 0 0 256 128 128 0 0 0 0-256z" />
+                    </svg>
                     <h3 className="text-2xl font-medium">Deeper Skill Sets</h3>
                     <p className="text-[#b4afc6]">I bring a well-rounded and evolving skillset that goes beyond surface-level knowledge. From building dynamic websites with WordPress, React, and modern front-end tools to optimizing performance, databases, and SEO, I combine technical expertise with problem-solving ability to deliver robust, scalable solutions.</p>
                 </article>
@@ -147,11 +148,29 @@ export default function Home() {
                         <p className="leading-7 lg:leading-10" >I am Henry Nwobodo, a results-driven Front-End & WordPress Web Developer and ICT Specialist with a passion for building innovative digital solutions that solve real-world problems. As co-founder of Drags Development (DragsDev) and Web dev of BMG Entertainments, I specialize in designing and developing high-performance web applications, streamlining IT infrastructures, and driving digital transformation across various industries.
 
                             With hands-on experience in PHP, Laravel, JavaScript, MySQL, and system architecture, I’ve successfully delivered projects ranging from Crypto and Trading websites and E-commerce systems to organizational websites and custom business tools. My approach prioritizes clean code, responsive design, and seamless user experience — all aligned with business objectives.</p>
+                        <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
+                            <div className=" text-white h-[100px] flex items-center gap-5 border-l-[15px] border-l-[#2563eb] pl-2">
+                                {/* <p className="text-5xl font-bold"><CountUp end={12} duration={10} /> <span className="text-2xl">Successful Years</span></p> */}
+                                <Stats end={12} duration={10} label="Successful Years" />
+                            </div>
 
-                        <div className="w-full text-white h-[100px] flex items-center gap-5 border-l-[15px] border-l-[#2563eb] pl-3">
-                            {/* <p className="text-5xl font-bold"><CountUp end={12} duration={10} /> <span className="text-2xl">Successful Years</span></p> */}
-                            <Stats end={12} duration={10} label="Successful Years" />
+                            <div>
+                                <a
+                                    href="/HenryNwobodo.pdf"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+
+                                    className="inline-block w-[300px] text-center relative overflow-hidden p-5 rounded-3xl 
+                                    text-white hover:text-blue-600 hover:bg-white
+                                    before:absolute before:inset-0 before:bg-blue-600 
+                                    before:origin-bottom before:scale-y-100 before:transition-transform before:duration-700
+                                    hover:before:scale-y-0"
+                                >
+                                    <span className="relative z-10 ">Preview | Download CV</span>
+                                </a>
+                            </div>
                         </div>
+
                     </div>
 
 
