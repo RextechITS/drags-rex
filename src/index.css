@@ -29,3 +29,7 @@ body{
   background-color: #00c0ff;
   border-radius: 8px;
 }
+
+li::marker{
+  color : #00c0ff;
+}

@@ -133,9 +133,9 @@ export default function Home() {
             </section>
 
             {/* about me section */}
-            <section>
+            <section >
                 <h2 className="text-xl font-medium mb-8 text-center text-[#00c0ff]">About Me</h2>
-                <p className="text-3xl lg:text-5xl font-semibold text-center text-white !leading-[1.3] font-poppins">A Passionate Developer <span className="block">Who Loves to Code</span></p>
+                <p className="text-2xl lg:text-5xl font-semibold text-center text-white !leading-[1.3] font-poppins">A Passionate Developer <span className="block">Who Loves to Code</span></p>
 
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mt-16">
                     <div data-aos="fade-up" className="flex-col gap-2">
@@ -198,7 +198,7 @@ export default function Home() {
             {/* Skills */}
             <section className="space-y-5">
                 <h2 className="text-xl font-medium mb-8 text-center text-[#00c0ff]">Skills</h2>
-                <p className="text-3xl lg:text-5xl font-semibold text-center text-white !leading-[1.3] font-poppins">A Passionate Developer <span className="block">Who works hard towards perfection</span></p>
+                <p className="text-2xl lg:text-5xl font-semibold text-center text-white !leading-[1.3] font-poppins">A Passionate Developer <span className="block">Who works hard towards perfection</span></p>
 
                 <div className="w-full grid grid-cols-1 md:grid-cols-2 gap-3 lg:gap-6 ">
                     <div data-aos="fade-up">
@@ -370,11 +370,11 @@ export default function Home() {
             {/* Experience */}
             <section>
                 <h2 className="text-xl font-medium mb-8 text-center text-[#00c0ff]">Professional Experience</h2>
-                <p className="text-3xl lg:text-5xl font-semibold text-center text-white !leading-[1.3] font-poppins">I Worked for Some Big Establishments <span className="block">And also participated in lots of NDA Projects</span></p>
+                <p className="text-2xl lg:text-5xl font-semibold text-center text-white !leading-[1.3] font-poppins">I Worked for Some Big Establishments <span className="block">And also participated in lots of NDA Projects</span></p>
 
                 <div className="grid grid-cols-1 lg:grid-cols-2 mt-6 lg:mt-10">
                     <div className="border-l py-5 flex flex-col gap-10 max-sm:ml-3">
-                        <div className="flex gap-4">
+                        <div data-aos="fade-up" className="flex gap-4">
                             <div className="bg-[#00c0ff] p-3 h-[55px] rounded-full -ml-7">
                                 <svg fill="#fff" width="30px" height="30px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24"><path d="M17,15.5V17c0,0.6-0.4,1-1,1s-1-0.4-1-1v-1.5H9V17c0,0.6-0.4,1-1,1s-1-0.4-1-1v-1.5H5c-0.7,0-1.4-0.2-2-0.5v4c0,1.7,1.3,3,3,3h12c1.7,0,3-1.3,3-3v-4c-0.6,0.3-1.3,0.5-2,0.5H17z M21,6h-4V5c0-1.7-1.3-3-3-3h-4C8.3,2,7,3.3,7,5v1H3C2.4,6,2,6.4,2,7v4c0,1.7,1.3,3,3,3h14c1.7,0,3-1.3,3-3V7C22,6.4,21.6,6,21,6z M15,6H9V5c0-0.6,0.4-1,1-1h4c0.6,0,1,0.4,1,1V6z" /></svg>
                             </div>
@@ -391,7 +391,7 @@ export default function Home() {
 
                         </div>
 
-                        <div className="flex gap-4">
+                        <div data-aos="fade-down" className="flex gap-4">
                             <div className="bg-[#00c0ff] p-3 h-[55px] rounded-full -ml-7">
                                 <svg fill="#fff" width="30px" height="30px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24"><path d="M17,15.5V17c0,0.6-0.4,1-1,1s-1-0.4-1-1v-1.5H9V17c0,0.6-0.4,1-1,1s-1-0.4-1-1v-1.5H5c-0.7,0-1.4-0.2-2-0.5v4c0,1.7,1.3,3,3,3h12c1.7,0,3-1.3,3-3v-4c-0.6,0.3-1.3,0.5-2,0.5H17z M21,6h-4V5c0-1.7-1.3-3-3-3h-4C8.3,2,7,3.3,7,5v1H3C2.4,6,2,6.4,2,7v4c0,1.7,1.3,3,3,3h14c1.7,0,3-1.3,3-3V7C22,6.4,21.6,6,21,6z M15,6H9V5c0-0.6,0.4-1,1-1h4c0.6,0,1,0.4,1,1V6z" /></svg>
                             </div>
@@ -409,7 +409,7 @@ export default function Home() {
                         </div>
 
 
-                        <div className="flex gap-4">
+                        <div data-aos="fade-up" className="flex gap-4">
                             <div className="bg-[#00c0ff] p-3 h-[55px] rounded-full -ml-7">
                                 <svg fill="#fff" width="30px" height="30px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24"><path d="M17,15.5V17c0,0.6-0.4,1-1,1s-1-0.4-1-1v-1.5H9V17c0,0.6-0.4,1-1,1s-1-0.4-1-1v-1.5H5c-0.7,0-1.4-0.2-2-0.5v4c0,1.7,1.3,3,3,3h12c1.7,0,3-1.3,3-3v-4c-0.6,0.3-1.3,0.5-2,0.5H17z M21,6h-4V5c0-1.7-1.3-3-3-3h-4C8.3,2,7,3.3,7,5v1H3C2.4,6,2,6.4,2,7v4c0,1.7,1.3,3,3,3h14c1.7,0,3-1.3,3-3V7C22,6.4,21.6,6,21,6z M15,6H9V5c0-0.6,0.4-1,1-1h4c0.6,0,1,0.4,1,1V6z" /></svg>
                             </div>
@@ -430,7 +430,7 @@ export default function Home() {
 
                     <div className="border-l py-5 flex flex-col gap-10 max-sm:ml-3">
 
-                        <div className="flex gap-4">
+                        <div data-aos="fade-down" className="flex gap-4">
                             <div className="bg-[#00c0ff] p-3 h-[55px] rounded-full -ml-7">
                                 <svg fill="#fff" width="30px" height="30px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24"><path d="M17,15.5V17c0,0.6-0.4,1-1,1s-1-0.4-1-1v-1.5H9V17c0,0.6-0.4,1-1,1s-1-0.4-1-1v-1.5H5c-0.7,0-1.4-0.2-2-0.5v4c0,1.7,1.3,3,3,3h12c1.7,0,3-1.3,3-3v-4c-0.6,0.3-1.3,0.5-2,0.5H17z M21,6h-4V5c0-1.7-1.3-3-3-3h-4C8.3,2,7,3.3,7,5v1H3C2.4,6,2,6.4,2,7v4c0,1.7,1.3,3,3,3h14c1.7,0,3-1.3,3-3V7C22,6.4,21.6,6,21,6z M15,6H9V5c0-0.6,0.4-1,1-1h4c0.6,0,1,0.4,1,1V6z" /></svg>
                             </div>
@@ -447,9 +447,7 @@ export default function Home() {
 
                         </div>
 
-
-
-                        <div className="flex gap-4">
+                        <div data-aos="fade-up" className="flex gap-4">
                             <div className="bg-[#00c0ff] p-3 h-[55px] rounded-full -ml-7">
                                 <svg fill="#fff" width="30px" height="30px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24"><path d="M17,15.5V17c0,0.6-0.4,1-1,1s-1-0.4-1-1v-1.5H9V17c0,0.6-0.4,1-1,1s-1-0.4-1-1v-1.5H5c-0.7,0-1.4-0.2-2-0.5v4c0,1.7,1.3,3,3,3h12c1.7,0,3-1.3,3-3v-4c-0.6,0.3-1.3,0.5-2,0.5H17z M21,6h-4V5c0-1.7-1.3-3-3-3h-4C8.3,2,7,3.3,7,5v1H3C2.4,6,2,6.4,2,7v4c0,1.7,1.3,3,3,3h14c1.7,0,3-1.3,3-3V7C22,6.4,21.6,6,21,6z M15,6H9V5c0-0.6,0.4-1,1-1h4c0.6,0,1,0.4,1,1V6z" /></svg>
                             </div>
@@ -466,7 +464,7 @@ export default function Home() {
 
                         </div>
 
-                        <div className="flex gap-4">
+                        <div data-aos="fade-down" className="flex gap-4">
                             <div className="bg-[#00c0ff] p-3 h-[55px] rounded-full -ml-7">
                                 <svg fill="#fff" width="30px" height="30px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24"><path d="M17,15.5V17c0,0.6-0.4,1-1,1s-1-0.4-1-1v-1.5H9V17c0,0.6-0.4,1-1,1s-1-0.4-1-1v-1.5H5c-0.7,0-1.4-0.2-2-0.5v4c0,1.7,1.3,3,3,3h12c1.7,0,3-1.3,3-3v-4c-0.6,0.3-1.3,0.5-2,0.5H17z M21,6h-4V5c0-1.7-1.3-3-3-3h-4C8.3,2,7,3.3,7,5v1H3C2.4,6,2,6.4,2,7v4c0,1.7,1.3,3,3,3h14c1.7,0,3-1.3,3-3V7C22,6.4,21.6,6,21,6z M15,6H9V5c0-0.6,0.4-1,1-1h4c0.6,0,1,0.4,1,1V6z" /></svg>
                             </div>
@@ -486,6 +484,95 @@ export default function Home() {
                     </div>
 
                 </div>
+            </section>
+
+            {/* why work with me */}
+            <section className="space-y-10">
+                <h2 className="text-3xl font-bold mb-8  text-[#00c0ff]">Why work with me</h2>
+                <p className="w-full lg:w-[50%]  text-white"> With over 8 years of experience in full-stack web development, I specialize in creating modern, scalable, and efficient digital solutions. My approach is results-driven, blending technical expertise with creativity to deliver platforms that are optimized for performance and user experience. </p>
+                <ul data-aos="fade-up" style={{ color: "white", listStyleType: "disc", display: "flex", flexDirection: "column", gap: "10px" }}>
+                    <li><span className="font-semibold"> Proven Experience –</span> With over 8 years in web design, development, and SEO, I bring both expertise and creativity to every project.</li>
+                    <li><span className="font-semibold"> Client-Focused Approach –</span> I take time to understand your business needs and deliver tailored solutions that align with your goals.</li>
+                    <li><span className="font-semibold"> Quality & Reliability –</span> From clean design to optimized performance, I ensure your website is built to the highest standards.</li>
+                    <li><span className="font-semibold"> Collaborative Network –</span> Together with my trusted partners in graphics, videography, and marketing, I provide a full range of digital services.</li>
+                    <li><span className="font-semibold"> Growth Driven Results –</span> My work goes beyond building websites — I focus on helping your brand grow, engage, and succeed online.</li>
+                </ul>
+                <div data-aos="fade-up" className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
+                    <div className="flex flex-col gap-3">
+                        <h4 className="text-[#00c0ff] text-xl">Development & Workflow</h4>
+                        <ul className="text-white" style={{ color: "white", listStyleType: "disc", display: "flex", flexDirection: "column", gap: "10px" }}>
+                            <li>Visual Studio Code</li>
+                            <li>Git & GitHub</li>
+                            <li>Cpanel</li>
+                            <li>npm | Nodejs Package</li>
+                            <li>Browser Tools</li>
+                        </ul>
+                    </div>
+
+                    <div className="flex flex-col gap-3">
+                        <h4 className="text-[#00c0ff] text-xl">Web Des. & Dev. Tools</h4>
+                        <ul className="text-white" style={{ color: "white", listStyleType: "disc", display: "flex", flexDirection: "column", gap: "10px" }}>
+                            <li>HTML, CSS, JavaScript</li>
+                            <li>JQuery, Alpine Js</li>
+                            <li>React Js, Tailwind</li>
+                            <li>PHP, Laravel</li>
+                        </ul>
+                    </div>
+
+                    <div className="flex flex-col gap-3">
+                        <h4 className="text-[#00c0ff] text-xl">Design & Prototyping</h4>
+                        <ul className="text-white" style={{ color: "white", listStyleType: "disc", display: "flex", flexDirection: "column", gap: "10px" }}>
+                            <li>Figma</li>
+                            <li>Canva</li>
+                            <li>CorelDraw</li>
+                            <li>Adobe Photoshop</li>
+                        </ul>
+                    </div>
+
+                    <div className="flex flex-col gap-3">
+                        <h4 className="text-[#00c0ff] text-xl">Optimization & Analytics</h4>
+                        <ul className="text-white" style={{ color: "white", listStyleType: "disc", display: "flex", flexDirection: "column", gap: "10px" }}>
+                            <li>Google Pagespeed Insight</li>
+                            <li>Google Analytics & Search Console</li>
+                            <li>GTmetrix</li>
+                            <li>Google Tag Manager</li>
+                            <li>Facebook Pixel</li>
+                        </ul>
+                    </div>
+
+                    <div className="flex flex-col gap-3">
+                        <h4 className="text-[#00c0ff] text-xl">SEO & Marketing</h4>
+                        <ul className="text-white" style={{ color: "white", listStyleType: "disc", display: "flex", flexDirection: "column", gap: "10px" }}>
+                            <li>AIOSEO</li>
+                            <li>Meta Descriptions</li>
+                            <li>AI</li>
+                        </ul>
+                    </div>
+
+                    <div className="flex flex-col gap-3">
+                        <h4 className="text-[#00c0ff] text-xl">Security & Maintenance Tools</h4>
+                        <ul className="text-white" style={{ color: "white", listStyleType: "disc", display: "flex", flexDirection: "column", gap: "10px" }}>
+                            <li>SSL Certificates (HTTPS Implementation)</li>
+                            <li>WordFence (For WordPress)</li>
+                            <li>Cpanel Backups</li>
+                            <li>reCAPTCHA (Forms and Login | Registeration protection)</li>
+                            <li>CloudFlare (firewall, CDN, and DDoS protection)</li>
+                            <li>cPanel Security Features (IP blocking, directory privacy, etc.)</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <h4 className="text-[#00c0ff] text-2xl text-center">Tech Stack</h4>
+                <p className="text-white text-center">
+                    My core stack covers frontend, backend, database, and design technologies. I build and maintain applications using:
+                </p>
+            </section>
+
+            {/* portfolio */}
+            <section>
+                <h2 className="text-xl font-medium mb-8 text-center text-[#00c0ff]">Portfolio</h2>
+                <p className="text-3xl lg:text-5xl font-semibold text-center text-white !leading-[1.3] font-poppins">I Worked for Some Big Establishments <span className="block">And also participated in lots of NDA Projects</span></p>
+
             </section>
 
         </div >
