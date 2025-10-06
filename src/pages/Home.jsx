@@ -139,14 +139,19 @@ export default function Home() {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-16">
                     <div data-aos="fade-up" className="flex-col gap-2">
                         <img src={mywebimage} alt="codes" className="cover center w-full aspect-auto" />
+
+                    </div>
+
+                    <div data-aos="fade-down" className="flex flex-col gap-6 justify-center text-white">
+                        <h3 className="text-2xl lg:text-3xl font-bold">About Me</h3>
+                        <p className="leading-7 lg:leading-10" >I am Henry Nwobodo, a results-driven Front-End & WordPress Web Developer and ICT Specialist with a passion for building innovative digital solutions that solve real-world problems. As co-founder of Drags Development (DragsDev) and Web dev of BMG Entertainments, I specialize in designing and developing high-performance web applications, streamlining IT infrastructures, and driving digital transformation across various industries.
+
+                            With hands-on experience in PHP, Laravel, JavaScript, MySQL, and system architecture, I’ve successfully delivered projects ranging from Crypto and Trading websites and E-commerce systems to organizational websites and custom business tools. My approach prioritizes clean code, responsive design, and seamless user experience — all aligned with business objectives.</p>
+
                         <div className="w-full text-white h-[100px] flex items-center gap-5 border-l-[15px] border-l-[#2563eb] pl-3">
                             {/* <p className="text-5xl font-bold"><CountUp end={12} duration={10} /> <span className="text-2xl">Successful Years</span></p> */}
                             <Stats end={12} duration={10} label="Successful Years" />
                         </div>
-                    </div>
-
-                    <div data-aos="fade-down" className="flex flex-col gap-6 justify-center text-white">
-
                     </div>
 
 
