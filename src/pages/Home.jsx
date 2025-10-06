@@ -16,20 +16,20 @@ export default function Home() {
         <div className="p-3 md:p-8 w-[95vw] lg:w-[79vw] mx-auto space-y-20">
             {/* hero section */}
             <section id="hero" className="w-full flex flex-col-reverse lg:flex-row gap-2 lg:gap-5 justify-between items-center pt-40">
-                <aside className="w-full lg:w-1/2 space-y-6 max-md:text-center">
-                    <h1 className="text-4xl lg:text-8xl text-white font-bold leading-12">Henry <span className="block text-blue-600"> Nwobodo C.</span> <span className="block text-xl font-bold"> Co-Founder <span className="text-[#2563eb]">|</span> CTO -  DragsDev</span></h1>
-                    <h3 className="text-white text-2xl md:text-3xl font-bold">Frontend <span className="text-[#2563eb]">|</span> WordPress Developer</h3>
+                <aside className="w-full lg:w-1/2 space-y-6 text-center lg:text-left">
+                    <h1 className="text-4xl lg:text-8xl text-white font-bold leading-12 ">Henry <span className="block text-[#00c0ff]"> Nwobodo C.</span> <span className="block text-xl font-bold max-w-md:text-center"> Co-Founder <span className="text-[#00c0ff]">|</span> CTO -  DragsDev</span></h1>
+                    <h3 className="text-white text-2xl md:text-3xl font-bold ">Frontend <span className="text-[#00c0ff]">|</span> WordPress Developer</h3>
                     <p className="text-white font-medium text-base md:text-xl">I specialize in developing robust platforms, including cab booking systems, e-commerce websites, and custom business applications. My focus is on writing clean code, optimizing performance, and delivering results-driven web development.</p>
-                    <Link to="/contact" className="inline-block w-[200px] relative overflow-hidden p-5 rounded-3xl text-center 
-                        text-white hover:text-blue-600 hover:bg-white
-                        before:absolute before:inset-0 before:bg-blue-600 
+                    <Link to="/contact" className="inline-block  w-full lg:w-[200px] relative overflow-hidden p-5 rounded-3xl text-center 
+                        text-white hover:text-[#00c0ff] hover:bg-white
+                        before:absolute before:inset-0 before:bg-[#00c0ff] 
                         before:origin-bottom before:scale-y-100 before:transition-transform before:duration-700
                         hover:before:scale-y-0">
                         <span className="relative z-10">Get Connected</span>
                     </Link>
                 </aside>
                 <aside>
-                    <div className="rounded-full bg-blue-600 relative w-72 h-72 lg:w-96 lg:h-96 flex justify-center items-center transform -rotate-12">
+                    <div className="rounded-full bg-[#00c0ff] relative w-72 h-72 lg:w-96 lg:h-96 flex justify-center items-center transform -rotate-12">
                         <img src={Onwellooo} alt="Bishop" className="w-full h-full object-cover object-center absolute top-0 transform -rotate-12" />
                     </div>
                 </aside>
@@ -38,14 +38,14 @@ export default function Home() {
             {/* feature section */}
             <section className="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-10">
                 <article data-aos="fade-up" className="bg-[#3a2b71] text-white p-6 rounded-2xl shadow-lg hover:shadow-xl transition-shadow duration-300 space-y-4">
-                    <svg width="60px" height="60px" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg"><path fill="#2563eb" d="M600.704 64a32 32 0 0 1 30.464 22.208l35.2 109.376c14.784 7.232 28.928 15.36 42.432 24.512l112.384-24.192a32 32 0 0 1 34.432 15.36L944.32 364.8a32 32 0 0 1-4.032 37.504l-77.12 85.12a357.12 357.12 0 0 1 0 49.024l77.12 85.248a32 32 0 0 1 4.032 37.504l-88.704 153.6a32 32 0 0 1-34.432 15.296L708.8 803.904c-13.44 9.088-27.648 17.28-42.368 24.512l-35.264 109.376A32 32 0 0 1 600.704 960H423.296a32 32 0 0 1-30.464-22.208L357.696 828.48a351.616 351.616 0 0 1-42.56-24.64l-112.32 24.256a32 32 0 0 1-34.432-15.36L79.68 659.2a32 32 0 0 1 4.032-37.504l77.12-85.248a357.12 357.12 0 0 1 0-48.896l-77.12-85.248A32 32 0 0 1 79.68 364.8l88.704-153.6a32 32 0 0 1 34.432-15.296l112.32 24.256c13.568-9.152 27.776-17.408 42.56-24.64l35.2-109.312A32 32 0 0 1 423.232 64H600.64zm-23.424 64H446.72l-36.352 113.088-24.512 11.968a294.113 294.113 0 0 0-34.816 20.096l-22.656 15.36-116.224-25.088-65.28 113.152 79.68 88.192-1.92 27.136a293.12 293.12 0 0 0 0 40.192l1.92 27.136-79.808 88.192 65.344 113.152 116.224-25.024 22.656 15.296a294.113 294.113 0 0 0 34.816 20.096l24.512 11.968L446.72 896h130.688l36.48-113.152 24.448-11.904a288.282 288.282 0 0 0 34.752-20.096l22.592-15.296 116.288 25.024 65.28-113.152-79.744-88.192 1.92-27.136a293.12 293.12 0 0 0 0-40.256l-1.92-27.136 79.808-88.128-65.344-113.152-116.288 24.96-22.592-15.232a287.616 287.616 0 0 0-34.752-20.096l-24.448-11.904L577.344 128zM512 320a192 192 0 1 1 0 384 192 192 0 0 1 0-384zm0 64a128 128 0 1 0 0 256 128 128 0 0 0 0-256z" />
+                    <svg width="60px" height="60px" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg"><path fill="#00c0ff" d="M600.704 64a32 32 0 0 1 30.464 22.208l35.2 109.376c14.784 7.232 28.928 15.36 42.432 24.512l112.384-24.192a32 32 0 0 1 34.432 15.36L944.32 364.8a32 32 0 0 1-4.032 37.504l-77.12 85.12a357.12 357.12 0 0 1 0 49.024l77.12 85.248a32 32 0 0 1 4.032 37.504l-88.704 153.6a32 32 0 0 1-34.432 15.296L708.8 803.904c-13.44 9.088-27.648 17.28-42.368 24.512l-35.264 109.376A32 32 0 0 1 600.704 960H423.296a32 32 0 0 1-30.464-22.208L357.696 828.48a351.616 351.616 0 0 1-42.56-24.64l-112.32 24.256a32 32 0 0 1-34.432-15.36L79.68 659.2a32 32 0 0 1 4.032-37.504l77.12-85.248a357.12 357.12 0 0 1 0-48.896l-77.12-85.248A32 32 0 0 1 79.68 364.8l88.704-153.6a32 32 0 0 1 34.432-15.296l112.32 24.256c13.568-9.152 27.776-17.408 42.56-24.64l35.2-109.312A32 32 0 0 1 423.232 64H600.64zm-23.424 64H446.72l-36.352 113.088-24.512 11.968a294.113 294.113 0 0 0-34.816 20.096l-22.656 15.36-116.224-25.088-65.28 113.152 79.68 88.192-1.92 27.136a293.12 293.12 0 0 0 0 40.192l1.92 27.136-79.808 88.192 65.344 113.152 116.224-25.024 22.656 15.296a294.113 294.113 0 0 0 34.816 20.096l24.512 11.968L446.72 896h130.688l36.48-113.152 24.448-11.904a288.282 288.282 0 0 0 34.752-20.096l22.592-15.296 116.288 25.024 65.28-113.152-79.744-88.192 1.92-27.136a293.12 293.12 0 0 0 0-40.256l-1.92-27.136 79.808-88.128-65.344-113.152-116.288 24.96-22.592-15.232a287.616 287.616 0 0 0-34.752-20.096l-24.448-11.904L577.344 128zM512 320a192 192 0 1 1 0 384 192 192 0 0 1 0-384zm0 64a128 128 0 1 0 0 256 128 128 0 0 0 0-256z" />
                     </svg>
                     <h3 className="text-2xl font-medium">Deeper Skill Sets</h3>
                     <p className="text-[#b4afc6]">I bring a well-rounded and evolving skillset that goes beyond surface-level knowledge. From building dynamic websites with WordPress, React, and modern front-end tools to optimizing performance, databases, and SEO, I combine technical expertise with problem-solving ability to deliver robust, scalable solutions.</p>
                 </article>
 
                 <article data-aos="fade-down" className="bg-[#3a2b71] text-white p-6 rounded-2xl shadow-lg hover:shadow-xl transition-shadow duration-300 space-y-4">
-                    <svg width="60px" height="60px" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill="#2563eb"><path d="M14.5 4H11V2.5l-.5-.5h-5l-.5.5V4H1.5l-.5.5v8l.5.5h13l.5-.5v-8l-.5-.5zM6 3h4v1H6V3zm8 2v.76L10 8v-.5L9.51 7h-3L6 7.5V8L2 5.71V5h12zM9 8v1H7V8h2zm-7 4V6.86l4 2.29v.35l.5.5h3l.5-.5v-.31l4-2.28V12H2z" /></svg>
+                    <svg width="60px" height="60px" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill="#00c0ff"><path d="M14.5 4H11V2.5l-.5-.5h-5l-.5.5V4H1.5l-.5.5v8l.5.5h13l.5-.5v-8l-.5-.5zM6 3h4v1H6V3zm8 2v.76L10 8v-.5L9.51 7h-3L6 7.5V8L2 5.71V5h12zM9 8v1H7V8h2zm-7 4V6.86l4 2.29v.35l.5.5h3l.5-.5v-.31l4-2.28V12H2z" /></svg>
                     <h3 className="text-2xl font-medium">Ceative Work</h3>
                     <p className="text-[#b4afc6]">My approach blends design thinking with development precision. I enjoy transforming ideas into engaging digital experiences, whether through clean code, intuitive user interfaces, or seamless workflows. Creativity drives my process, allowing me to craft solutions that are both functional and inspiring.</p>
                 </article>
@@ -57,7 +57,7 @@ export default function Home() {
                         <desc>Created with Sketch.</desc>
                         <g id="diamond" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
                             <rect width="48" height="48" fill="white" fill-opacity="0.01" />
-                            <g id="编组" transform="translate(3.000000, 5.000000)" stroke="#2563eb" stroke-width="4">
+                            <g id="编组" transform="translate(3.000000, 5.000000)" stroke="#00c0ff" stroke-width="4">
                                 <polygon id="Path-340" points="7.63636364 0 34.3636364 0 42 13.3 21 38 0 13.3">
 
                                 </polygon>
@@ -78,7 +78,7 @@ export default function Home() {
                 </article>
 
                 <article data-aos="fade-down" className="bg-[#3a2b71] text-white p-6 rounded-2xl shadow-lg hover:shadow-xl transition-shadow duration-300 space-y-4">
-                    <svg fill="#2563eb" width="60px" height="60px" viewBox="0 0 36 36" version="1.1" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <svg fill="#00c0ff" width="60px" height="60px" viewBox="0 0 36 36" version="1.1" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                         <title>users-solid</title>
                         <path class="clr-i-solid clr-i-solid-path-1" d="M12,16.14q-.43,0-.87,0a8.67,8.67,0,0,0-6.43,2.52l-.24.28v8.28H8.54v-4.7l.55-.62.25-.29a11,11,0,0,1,4.71-2.86A6.59,6.59,0,0,1,12,16.14Z"></path><path class="clr-i-solid clr-i-solid-path-2" d="M31.34,18.63a8.67,8.67,0,0,0-6.43-2.52,10.47,10.47,0,0,0-1.09.06,6.59,6.59,0,0,1-2,2.45,10.91,10.91,0,0,1,5,3l.25.28.54.62v4.71h3.94V18.91Z"></path><path class="clr-i-solid clr-i-solid-path-3" d="M11.1,14.19c.11,0,.2,0,.31,0a6.45,6.45,0,0,1,3.11-6.29,4.09,4.09,0,1,0-3.42,6.33Z"></path><path class="clr-i-solid clr-i-solid-path-4" d="M24.43,13.44a6.54,6.54,0,0,1,0,.69,4.09,4.09,0,0,0,.58.05h.19A4.09,4.09,0,1,0,21.47,8,6.53,6.53,0,0,1,24.43,13.44Z"></path><circle class="clr-i-solid clr-i-solid-path-5" cx="17.87" cy="13.45" r="4.47"></circle><path class="clr-i-solid clr-i-solid-path-6" d="M18.11,20.3A9.69,9.69,0,0,0,11,23l-.25.28v6.33a1.57,1.57,0,0,0,1.6,1.54H23.84a1.57,1.57,0,0,0,1.6-1.54V23.3L25.2,23A9.58,9.58,0,0,0,18.11,20.3Z"></path>
                         <rect x="0" y="0" width="36" height="36" fill-opacity="0" />
@@ -89,16 +89,16 @@ export default function Home() {
 
                 <article data-aos="fade-up" className="bg-[#3a2b71] text-white p-6 rounded-2xl shadow-lg hover:shadow-xl transition-shadow duration-300 space-y-4">
                     <svg width="60px" height="60px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                        <path fill="#2563eb" d="M10.3 8.2l-0.9 0.9 0.9 0.9-1.2 1.2 4.3 4.3c0.6 0.6 1.5 0.6 2.1 0s0.6-1.5 0-2.1l-5.2-5.2zM14.2 15c-0.4 0-0.8-0.3-0.8-0.8 0-0.4 0.3-0.8 0.8-0.8s0.8 0.3 0.8 0.8c0 0.5-0.3 0.8-0.8 0.8z"></path>
-                        <path fill="#2563eb" d="M3.6 8l0.9-0.6 1.5-1.7 0.9 0.9 0.9-0.9-0.1-0.1c0.2-0.5 0.3-1 0.3-1.6 0-2.2-1.8-4-4-4-0.6 0-1.1 0.1-1.6 0.3l2.9 2.9-2.1 2.1-2.9-2.9c-0.2 0.5-0.3 1-0.3 1.6 0 2.1 1.6 3.7 3.6 4z"></path>
-                        <path fill="#2563eb" d="M8 10.8l0.9-0.8-0.9-0.9 5.7-5.7 1.2-0.4 1.1-2.2-0.7-0.7-2.3 1-0.5 1.2-5.6 5.7-0.9-0.9-0.8 0.9c0 0 0.8 0.6-0.1 1.5-0.5 0.5-1.3-0.1-2.8 1.4-0.5 0.5-2.1 2.1-2.1 2.1s-0.6 1 0.6 2.2 2.2 0.6 2.2 0.6 1.6-1.6 2.1-2.1c1.4-1.4 0.9-2.3 1.3-2.7 0.9-0.9 1.6-0.2 1.6-0.2zM4.9 10.4l0.7 0.7-3.8 3.8-0.7-0.7z"></path>
+                        <path fill="#00c0ff" d="M10.3 8.2l-0.9 0.9 0.9 0.9-1.2 1.2 4.3 4.3c0.6 0.6 1.5 0.6 2.1 0s0.6-1.5 0-2.1l-5.2-5.2zM14.2 15c-0.4 0-0.8-0.3-0.8-0.8 0-0.4 0.3-0.8 0.8-0.8s0.8 0.3 0.8 0.8c0 0.5-0.3 0.8-0.8 0.8z"></path>
+                        <path fill="#00c0ff" d="M3.6 8l0.9-0.6 1.5-1.7 0.9 0.9 0.9-0.9-0.1-0.1c0.2-0.5 0.3-1 0.3-1.6 0-2.2-1.8-4-4-4-0.6 0-1.1 0.1-1.6 0.3l2.9 2.9-2.1 2.1-2.9-2.9c-0.2 0.5-0.3 1-0.3 1.6 0 2.1 1.6 3.7 3.6 4z"></path>
+                        <path fill="#00c0ff" d="M8 10.8l0.9-0.8-0.9-0.9 5.7-5.7 1.2-0.4 1.1-2.2-0.7-0.7-2.3 1-0.5 1.2-5.6 5.7-0.9-0.9-0.8 0.9c0 0 0.8 0.6-0.1 1.5-0.5 0.5-1.3-0.1-2.8 1.4-0.5 0.5-2.1 2.1-2.1 2.1s-0.6 1 0.6 2.2 2.2 0.6 2.2 0.6 1.6-1.6 2.1-2.1c1.4-1.4 0.9-2.3 1.3-2.7 0.9-0.9 1.6-0.2 1.6-0.2zM4.9 10.4l0.7 0.7-3.8 3.8-0.7-0.7z"></path>
                     </svg>
                     <h3 className="text-2xl font-medium">Innovative Problem-Solving</h3>
                     <p className="text-[#b4afc6]">I thrive on challenges and see every project as an opportunity to innovate. Whether it’s debugging complex issues, customizing plugins, or creating unique design systems, I approach problems with creativity and persistence to find the most effective solutions.</p>
                 </article>
 
                 <article data-aos="fade-down" className="bg-[#3a2b71] text-white p-6 rounded-2xl shadow-lg hover:shadow-xl transition-shadow duration-300 space-y-4">
-                    <svg fill="#2563eb" width="60px" height="60px" viewBox="0 0 512 512" version="1.1" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <svg fill="#00c0ff" width="60px" height="60px" viewBox="0 0 512 512" version="1.1" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 
                         <g id="A_-_59_x2C__growth_x2C__grow_x2C__hand_x2C__success">
 
@@ -134,10 +134,10 @@ export default function Home() {
 
             {/* about me section */}
             <section>
-                <h2 className="text-xl font-medium mb-8 text-center text-[#2563eb]">About Me</h2>
+                <h2 className="text-xl font-medium mb-8 text-center text-[#00c0ff]">About Me</h2>
                 <p className="text-3xl lg:text-5xl font-semibold text-center text-white leading-[1.3] font-poppins">A Passionate Developer <span className="block">Who Loves to Code</span></p>
 
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-16">
+                <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mt-16">
                     <div data-aos="fade-up" className="flex-col gap-2">
                         <img src={mywebimage} alt="codes" className="cover center w-full aspect-auto" />
 
@@ -145,11 +145,11 @@ export default function Home() {
 
                     <div data-aos="fade-down" className="flex flex-col gap-6 justify-center text-white">
                         <h3 className="text-2xl lg:text-3xl font-bold">About Me</h3>
-                        <p className="leading-7 lg:leading-10" >I am Henry Nwobodo, a results-driven Front-End & WordPress Web Developer and ICT Specialist with a passion for building innovative digital solutions that solve real-world problems. As co-founder of Drags Development (DragsDev) and Web dev of BMG Entertainments, I specialize in designing and developing high-performance web applications, streamlining IT infrastructures, and driving digital transformation across various industries.
+                        <p className="leading-7 lg:leading-10" >I am Henry Nwobodo <a className="text-[#00c0ff] font-bold" href="https://github.com/RextechITS" target="_blank">(github)</a>, a results-driven Front-End & WordPress Web Developer and ICT Specialist with a passion for building innovative digital solutions that solve real-world problems. As co-founder of Drags Development (DragsDev) and Web dev of BMG Entertainments, I specialize in designing and developing high-performance web applications, streamlining IT infrastructures, and driving digital transformation across various industries.
 
                             With hands-on experience in PHP, Laravel, JavaScript, MySQL, and system architecture, I’ve successfully delivered projects ranging from Crypto and Trading websites and E-commerce systems to organizational websites and custom business tools. My approach prioritizes clean code, responsive design, and seamless user experience — all aligned with business objectives.</p>
-                        <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
-                            <div className=" text-white h-[100px] flex items-center gap-5 border-l-[15px] border-l-[#2563eb] pl-2">
+                        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                            <div className=" text-white h-[100px] flex items-center gap-5 border-l-[15px] border-l-[#00c0ff] pl-2">
                                 {/* <p className="text-5xl font-bold"><CountUp end={12} duration={10} /> <span className="text-2xl">Successful Years</span></p> */}
                                 <Stats end={12} duration={10} label="Successful Years" />
                             </div>
@@ -160,9 +160,9 @@ export default function Home() {
                                     target="_blank"
                                     rel="noopener noreferrer"
 
-                                    className="inline-block w-[300px] text-center relative overflow-hidden p-5 rounded-3xl 
-                                    text-white hover:text-blue-600 hover:bg-white
-                                    before:absolute before:inset-0 before:bg-blue-600 
+                                    className="inline-block w-full md:w-[300px] text-center relative overflow-hidden p-5 rounded-3xl 
+                                    text-white hover:text-[#00c0ff] hover:bg-white
+                                    before:absolute before:inset-0 before:bg-[#00c0ff] 
                                     before:origin-bottom before:scale-y-100 before:transition-transform before:duration-700
                                     hover:before:scale-y-0"
                                 >
@@ -176,6 +176,195 @@ export default function Home() {
 
 
                 </div>
+            </section>
+
+            {/* Statics section */}
+            <section className="w-full grid grid-cols-1  lg:grid-cols-3 gap-6 lg:gap-10 ">
+                <article data-aos="fade-up" className="bg-[#3a2b71] text-white p-6 rounded-2xl shadow-lg hover:shadow-xl transition-shadow duration-300 space-y-4 flex flex-col items-center">
+                    <Stats end={100} duration="10" label="Direct Clients" />
+                </article>
+
+                <article data-aos="fade-down" className="bg-[#3a2b71] text-white p-6 rounded-2xl shadow-lg hover:shadow-xl transition-shadow duration-300 space-y-4 flex flex-col items-center">
+
+                    <Stats end={40} duration="10" label="Digital Products" />
+                </article>
+
+                <article data-aos="fade-up" className="bg-[#3a2b71] text-white p-6 rounded-2xl shadow-lg hover:shadow-xl transition-shadow duration-300 space-y-4 flex flex-col items-center   ">
+                    <Stats end={40} duration="80" label="Total Ptojects" />
+                </article>
+
+            </section>
+
+            {/* Skills */}
+            <section className="space-y-5">
+                <h2 className="text-xl font-medium mb-8 text-center text-[#00c0ff]">Skills</h2>
+                <p className="text-3xl lg:text-5xl font-semibold text-center text-white leading-[1.3] font-poppins">A Passionate Developer <span className="block">Who works hard towards perfection</span></p>
+
+                <div className="w-full grid grid-cols-1 md:grid-cols-2 gap-3 lg:gap-6 ">
+                    <div data-aos="fade-up">
+                        <div className="flex justify-between text-white">
+                            <p className="">WordPress</p>
+                            <p className="text-[#00c0ff]">90%</p>
+                        </div>
+                        <progress value={90} max={100} className="progress-custom w-full h-2 mt-6 rounded-lg overflow-hidden "></progress>
+
+                    </div>
+
+                    <div data-aos="fade-down">
+                        <div className="flex justify-between text-white">
+                            <p className="">ReactJs</p>
+                            <p className="text-[#00c0ff]">40%</p>
+                        </div>
+                        <progress value={40} max={100} className="progress-custom w-full h-2 mt-6 rounded-lg overflow-hidden "></progress>
+
+                    </div>
+
+                    <div data-aos="fade-up">
+                        <div className="flex justify-between text-white">
+                            <p className="">HTML</p>
+                            <p className="text-[#00c0ff]">90%</p>
+                        </div>
+                        <progress value={90} max={100} className="progress-custom w-full h-2 mt-6 rounded-lg overflow-hidden "></progress>
+
+                    </div>
+
+                    <div data-aos="fade-down">
+                        <div className="flex justify-between text-white">
+                            <p className="">PHP </p>
+                            <p className="text-[#00c0ff]">50%</p>
+                        </div>
+                        <progress value={50} max={100} className="progress-custom w-full h-2 mt-6 rounded-lg overflow-hidden "></progress>
+
+                    </div>
+
+                    <div data-aos="fade-up">
+                        <div className="flex justify-between text-white">
+                            <p className="">CSS | Tailwind</p>
+                            <p className="text-[#00c0ff]">90%</p>
+                        </div>
+                        <progress value={90} max={100} className="progress-custom w-full h-2 mt-6 rounded-lg overflow-hidden "></progress>
+
+                    </div>
+
+                    <div data-aos="fade-down">
+                        <div className="flex justify-between text-white">
+                            <p className="">Laravel</p>
+                            <p className="text-[#00c0ff]">50%</p>
+                        </div>
+                        <progress value={50} max={100} className="progress-custom w-full h-2 mt-6 rounded-lg overflow-hidden "></progress>
+
+                    </div>
+
+                    <div data-aos="fade-down">
+                        <div className="flex justify-between text-white">
+                            <p className="">JavaScript | Jquery</p>
+                            <p className="text-[#00c0ff]">70%</p>
+                        </div>
+                        <progress value={70} max={100} className="progress-custom w-full h-2 mt-6 rounded-lg overflow-hidden "></progress>
+
+                    </div>
+
+
+                    <div data-aos="fade-up">
+                        <div className="flex justify-between text-white">
+                            <p className="">Alpine Js</p>
+                            <p className="text-[#00c0ff]">50%</p>
+                        </div>
+                        <progress value={50} max={100} className="progress-custom w-full h-2 mt-6 rounded-lg overflow-hidden "></progress>
+
+                    </div>
+
+
+                </div>
+
+
+
+
+            </section>
+
+            {/* Services section */}
+            <section className="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-10 text-center ">
+                <article data-aos="fade-up" className="bg-[#3a2b71] flex flex-col items-center text-white p-6 rounded-2xl shadow-lg hover:shadow-xl transition-shadow duration-300 space-y-4">
+                    <svg fill="#00c0ff" width="60px" height="60px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M11,19 L13,19 L13,17 L11,17 L11,19 Z M10,19 L10,17 L4.5,17 C3.11928813,17 2,15.8807119 2,14.5 L2,6.5 C2,5.11928813 3.11928813,4 4.5,4 L19.5,4 C20.8807119,4 22,5.11928813 22,6.5 L22,14.5 C22,15.8807119 20.8807119,17 19.5,17 L14,17 L14,19 L15.5,19 C15.7761424,19 16,19.2238576 16,19.5 C16,19.7761424 15.7761424,20 15.5,20 L8.5,20 C8.22385763,20 8,19.7761424 8,19.5 C8,19.2238576 8.22385763,19 8.5,19 L10,19 Z M4.5,5 C3.67157288,5 3,5.67157288 3,6.5 L3,14.5 C3,15.3284271 3.67157288,16 4.5,16 L19.5,16 C20.3284271,16 21,15.3284271 21,14.5 L21,6.5 C21,5.67157288 20.3284271,5 19.5,5 L4.5,5 Z" />
+                    </svg>
+                    <h3 className="text-2xl font-medium">Web Design and SEO</h3>
+                    <p className="text-[#b4afc6]">I create clean, modern, and user-friendly website designs that are not only visually appealing but also SEO-friendly, helping your site rank better and attract more visitors.</p>
+                </article>
+
+                <article data-aos="fade-down" className="bg-[#3a2b71] flex flex-col items-center text-white p-6 rounded-2xl shadow-lg hover:shadow-xl transition-shadow duration-300 space-y-4">
+                    <svg height="60px" fill="#00c0ff" viewBox="0 -59 400 400" width="60px" xmlns="http://www.w3.org/2000/svg" >
+                        <path d="m329.5 30h-89.5v-20.199219c.101562-5.300781-4.199219-9.699219-9.5-9.800781-.101562 0-.199219 0-.300781 0h-61.199219c-5.398438-.0976562-9.898438 4.203125-10 9.703125v.097656 20.199219h-89.300781c-5.5 0-10 4.5-10 10s4.5 10 10 10h60.601562c-24.199219 21-39.300781 50.800781-39.300781 83.703125v67.296875h-18.199219c-5.402343 0-9.800781 4.402344-9.800781 9.800781v.199219 61.203125c-.101562 5.296875 4.199219 9.699219 9.5 9.796875h.300781 61.199219c5.398438.101562 9.898438-4.296875 10-9.699219v-.097656-61.203125c0-5.5-4.5-10-10-10h-23v-67.296875c.101562-33.101563 18.601562-63.300781 48-78.5v15.796875c0 5.5 4.398438 10 9.898438 10h61.300781c5.402343 0 9.800781-4.398438 9.800781-9.796875 0-.101563 0-.101563 0-.203125v-15.796875c29.398438 15.097656 48 45.398437 48 78.5v67.296875h-22.800781c-5.597657 0-10.097657 4.402344-10.199219 10v61.203125c.101562 5.5 4.699219 9.898437 10.199219 9.796875h61.199219c5.203124.101562 9.5-4.097656 9.601562-9.398438 0-.101562 0-.300781 0-.398437v-61.203125c.199219-5.296875-4-9.796875-9.300781-10-.097657 0-.199219 0-.300781 0h-18.398438v-67.296875c0-33-14.800781-62.703125-39-83.703125h60.5c5.5 0 10-4.5 10-10s-4.5-10-10-10zm-205.5 232h-41v-41h41zm192 0h-41v-41h41zm-137-201v-41h41v16.601562 6.898438 17.5zm0 0">
+                        </path>
+                        <g><path d="m39.101562 80.300781c-21.5 0-39.101562-17.898437-39.101562-39.898437s17.5-39.902344 39.101562-39.902344c21.597657 0 39.097657 17.902344 39.097657 39.902344s-17.597657 39.898437-39.097657 39.898437zm0-59.800781c-10.5 0-19.101562 8.902344-19.101562 19.902344s8.601562 19.898437 19.101562 19.898437 19.097657-8.898437 19.097657-19.898437-8.597657-19.902344-19.097657-19.902344zm0 0">
+                        </path><path d="m360.101562 79.5c-22 0-39.902343-17.5-39.902343-39.097656 0-21.601563 17.902343-39.101563 39.902343-39.101563s39.898438 17.5 39.898438 39.101563c0 21.597656-17.898438 39.097656-39.898438 39.097656zm0-58.199219c-11 0-19.902343 8.601563-19.902343 19.101563s8.902343 19.097656 19.902343 19.097656 19.898438-8.597656 19.898438-19.097656-8.898438-19.101563-19.898438-19.101563zm0 0">
+                            </path>
+                        </g>
+                    </svg>
+                    <h3 className="text-2xl font-medium">Graphics Design</h3>
+                    <p className="text-[#b4afc6]">Through my trusted partners, I provide high-quality graphic design solutions — from branding to visuals — to help businesses stand out.</p>
+                </article>
+
+                <article data-aos="fade-up" className="bg-[#3a2b71] flex flex-col items-center text-white p-6 rounded-2xl shadow-lg hover:shadow-xl transition-shadow duration-300 space-y-4">
+                    <svg fill="#00c0ff" width="60px" height="60px" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M14.25 2.1a1.25 1.25 0 0 0-1.17-.1L6.91 4.43a1.22 1.22 0 0 1-.46.09H2.5a1.25 1.25 0 0 0-1.25 1.25v.1H0v3h1.25V9a1.25 1.25 0 0 0 1.25 1.22L4 13.4a1.26 1.26 0 0 0 1.13.72h.63A1.25 1.25 0 0 0 7 12.87v-2.53l6.08 2.43a1.27 1.27 0 0 0 .47.09 1.29 1.29 0 0 0 .7-.22 1.25 1.25 0 0 0 .55-1V3.13a1.25 1.25 0 0 0-.55-1.03zm-8.5 3.67V9H2.5V5.77zm0 7.1h-.63l-1.23-2.65h1.86zm1.62-3.72A2.29 2.29 0 0 0 7 9V5.7a2.26 2.26 0 0 0 .37-.11l6.18-2.46v8.48zm7.46-3.03v2.5a1.25 1.25 0 0 0 0-2.5z" />
+                    </svg>
+                    <h3 className="text-2xl font-medium">Digital Marketing & SMM</h3>
+                    <p className="text-[#b4afc6]">Working with skilled partners, I provide digital marketing and social media management services to boost engagement and drive online visibility.</p>
+                </article>
+
+                <article data-aos="fade-down" className="bg-[#3a2b71] flex flex-col items-center text-white p-6 rounded-2xl shadow-lg hover:shadow-xl transition-shadow duration-300 space-y-4">
+                    <svg fill="#00c0ff" height="60px" width="60px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                        viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve">
+                        <path d="M302.5,162.9h-256C20.9,162.9,0,183.8,0,209.5v256C0,491.1,20.9,512,46.5,512h256c25.7,0,46.5-20.9,46.5-46.5v-256
+	C349.1,183.8,328.2,162.9,302.5,162.9z M372.4,279.3v116.4L512,465.5v-256L372.4,279.3z M69.8,139.6c38.6,0,69.8-31.3,69.8-69.8
+	S108.4,0,69.8,0C31.3,0,0,31.3,0,69.8S31.3,139.6,69.8,139.6z M279.3,0c-38.6,0-69.8,31.3-69.8,69.8s31.3,69.8,69.8,69.8
+	c38.6,0,69.8-31.3,69.8-69.8S317.8,0,279.3,0z"/>
+                    </svg>
+                    <h3 className="text-2xl font-medium">Videograpy & Photography</h3>
+                    <p className="text-[#b4afc6]">With my partners, I deliver professional videography and photography services that capture powerful visuals to elevate your brand.</p>
+                </article>
+
+                <article data-aos="fade-up" className="bg-[#3a2b71] flex flex-col items-center text-white p-6 rounded-2xl shadow-lg hover:shadow-xl transition-shadow duration-300 space-y-4">
+                    <svg fill="#00c0ff" width="60px" height="60px" viewBox="0 0 512 512" version="1.1" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+
+                        <g id="B_-_119_x2C__Support_x2C__Business_x2C__consulting_x2C__customer_x2C__man_x2C__online_consultant_x2C__service">
+
+                            <g>
+
+                                <path d="M285.195,399.619c-1.621,0-2.871-1.327-2.871-2.911    c0-1.62,1.25-2.909,2.871-2.909h38.094c1.622,0,2.875,1.289,2.875,2.909c0,1.584-1.253,2.911-2.875,2.911H285.195z     M285.195,423.491c-1.621,0-2.871-1.289-2.871-2.911c0-1.62,1.25-2.909,2.871-2.909h38.094c1.622,0,2.875,1.289,2.875,2.909    c0,1.622-1.253,2.911-2.875,2.911H285.195z M365.066,320.413c-11.346-6.04-24.83-13.298-40.6-22.251l-41.85,68.854    c-0.148,0.222-0.293,0.405-0.44,0.627c-1.105,1.178-2.946,1.252-4.128,0.147l-21.955-20.483l-24.314,24.167v0.036l0,0h-0.075    v0.038l-0.072,0.036v0.037l0,0v0.037h-0.072v0.035l0,0l-0.076,0.038l0,0v0.036l-0.072,0.038l-0.076,0.036l0,0l-0.221,0.111    l-0.072,0.036l0,0l-0.075,0.037l0,0l0,0l-0.072,0.036l0,0l-0.072,0.037l-0.076,0.037l0,0l-0.073,0.037l0,0h-0.076l0,0    l-0.072,0.037l0,0h-0.072l0,0l-0.076,0.035l0,0h-0.072l0,0h-0.075l0,0l-0.072,0.038l0,0l0,0h-0.072l0,0h-0.076l0,0h-0.072l0,0    h-0.076l0,0h-0.145h-0.076h-0.072h-0.075h-0.072l0,0h-0.076l0,0l-0.072-0.038l0,0h-0.072l0,0h-0.076l0,0l-0.072-0.035l0,0h-0.076    l-0.072-0.037l0,0h-0.072l0,0l-0.147-0.074l0,0l-0.148-0.073l0,0l-0.072-0.037l0,0l-0.076-0.036l0,0l0,0l-0.072-0.038l0,0    l-0.148-0.073v-0.036h-0.072l-0.075-0.112h-0.072v-0.035v-0.037h-0.076v-0.037v-0.036h-0.072v-0.038h-0.072v-0.036v-0.037h-0.076    V371.4v-0.038h-0.072v-0.036v-0.038l-0.075-0.035l0,0l-0.073-0.074v-0.037l-0.072-0.185l0,0l-0.075-0.036l-0.072-0.147    l-0.076-0.11l-39.639-72.427c-16.207,9.21-29.987,16.541-41.405,22.62c-26.526,14.183-40.379,21.551-47.156,32.565    c-7.367,12.01-7.147,29.398-6.63,65.611c0.147,10.278,0.295,21.993,0.295,34.04c54.521,12.452,108.969,18.53,163.421,18.456    c54.449-0.073,108.896-6.335,163.421-18.456c0-11.604,0.145-23.062,0.293-33.155c0.443-36.583,0.664-54.155-6.778-66.312    C406.031,342.37,392.03,334.854,365.066,320.413z M259.925,342.886l19.45,18.199l40.303-66.349l-14.66-13.445L259.925,342.886z     M192.289,294.811l38.166,69.811l21.735-21.661l-45.167-61.669L192.289,294.811z M257.495,68.873    c-21.884,0-41.777,8.88-56.146,23.247c-11.566,11.567-19.525,26.672-22.251,43.507c0.147,0.406,0.22,0.884,0.147,1.326    c-0.295,1.841-0.516,3.72-0.588,5.599c-0.148,1.843-0.221,3.759-0.221,5.711c0,4.273,0.293,8.841,0.881,13.63v0.111    c0.592,4.79,1.477,9.799,2.582,14.81c0.072,0.258,0.146,0.589,0.146,0.883c0,0.259-0.073,0.479-0.073,0.737    c4.2,18.162,11.935,37.614,22.917,53.528c13.112,19.009,30.795,32.824,52.606,32.824c21.808,0,39.563-13.815,52.679-32.824    c1.4-2.063,2.799-4.2,4.128-6.373l-44.208,16.799c-2.285,0.847-4.644,0.737-6.705-0.185c-1.99-0.922-3.76-2.616-4.568-4.863    c-0.885-2.247-0.736-4.642,0.221-6.667c0.884-2.063,2.578-3.758,4.787-4.605l61.744-23.504    c7.441-18.972,11.349-38.865,11.349-54.3c0-21.92-8.915-41.777-23.284-56.144C299.27,77.752,279.449,68.873,257.495,68.873z     M194.499,129.364c-0.737-1.4-0.148-3.168,1.25-3.905c1.4-0.737,3.17-0.147,3.907,1.252c1.545,2.948,3.387,5.49,5.452,7.663    c6.262,6.668,14.81,9.983,23.501,10.794c8.696,0.811,17.611-0.921,24.317-4.384c2.43-1.253,4.641-2.727,6.333-4.421l0.076-0.038    c15.25-14.441,20.923-17.129,23.357-14.588l0.145,0.147c1.477,1.731,1.032,4.237,0.443,7.146    c-0.443,2.137-0.957,4.606-0.516,5.785v0.074c0.367,0.589,1.841,0.553,5.82-0.922c5.453-2.063,13.484-4.532,20.703-4.863h0.076    c8.104-0.295,15.177,1.989,17.459,10.131c0.445,1.547-0.512,3.131-2.062,3.573c-1.546,0.405-3.167-0.515-3.535-2.025    c-1.329-4.752-6.116-6.078-11.643-5.858h-0.072c-6.413,0.295-13.853,2.58-18.864,4.458c-8.18,3.02-11.787,1.289-13.26-2.284    l-0.076-0.295c-1.029-2.689-0.368-6.042,0.221-8.915c0.296-1.4,1.4-1.695,0.961-2.137c-0.148-0.185-3.172,3.463-15.178,14.81    v0.037c-2.214,2.063-4.793,3.832-7.739,5.341c-7.664,3.979-17.684,5.932-27.481,5.011c-10.021-0.922-19.893-4.826-27.264-12.563    C198.403,135.848,196.265,132.827,194.499,129.364z M279.375,178.692c-1.474,0.626-3.168-0.073-3.832-1.547    c-0.588-1.474,0.076-3.168,1.549-3.795c0.072-0.037,18.053-8.104,26.744,0.627c1.105,1.105,1.105,2.983,0,4.125    c-1.177,1.105-3.019,1.105-4.123-0.037C293.891,172.245,279.449,178.692,279.375,178.692z M159.5,139.458    c3.315-27.703,15.105-52.275,32.272-69.995c17.459-18.051,40.524-28.993,65.722-28.993c25.271,0,48.331,10.942,65.794,28.993    c17.167,17.72,28.958,42.292,32.272,69.995h7.663v35.33h-23.137c1.915-9.506,2.875-18.567,2.875-26.524    c0-2.948-0.076-5.895-0.443-8.805h7.222c-3.315-26.12-14.44-49.254-30.651-65.943c-16.431-16.946-37.946-27.224-61.595-27.224    c-23.578,0-45.168,10.278-61.523,27.224c-16.21,16.688-27.408,39.823-30.651,65.943h7.147c-0.296,2.91-0.441,5.857-0.441,8.805    c0,7.957,0.958,17.019,2.947,26.524h-22.695v-35.33H159.5z M348.56,189.892c0-1.622,1.329-2.948,2.95-2.948    c1.618,0,2.871,1.326,2.871,2.948v12.157c0,1.326-0.884,2.432-2.062,2.799l-84.292,32.087c-1.545,0.589-3.166-0.184-3.755-1.657    c-0.589-1.51,0.147-3.205,1.694-3.758l82.593-31.461V189.892z M237.97,173.35c1.473,0.627,2.134,2.322,1.473,3.795    c-0.589,1.474-2.286,2.173-3.759,1.547c-0.072,0-14.513-6.447-20.334-0.627c-1.105,1.142-2.947,1.142-4.127,0.037    c-1.104-1.142-1.104-3.02,0-4.125C219.918,165.246,237.894,173.313,237.97,173.35z" />
+
+                            </g>
+
+                        </g>
+
+                        <g id="Layer_1" />
+
+                    </svg>
+                    <h3 className="text-2xl font-medium">Consultancy</h3>
+                    <p className="text-[#b4afc6]">I offer expert guidance on website strategy, performance, and digital presence to ensure you make the right choices for growth and success.</p>
+                </article>
+
+                <article data-aos="fade-down" className="bg-[#3a2b71] flex flex-col items-center text-white p-6 rounded-2xl shadow-lg hover:shadow-xl transition-shadow duration-300 space-y-4">
+                    <svg height="60" viewBox="-40 0 400 400.005" fill="#00c0ff" width="60px" xmlns="http://www.w3.org/2000/svg" >
+                        <path d="m84.816406 350.003906c-19.152344 0-34.675781-15.523437-34.675781-34.675781v-305.324219h-5.324219c-19.152344 0-34.675781 15.527344-34.675781 34.675782v310.648437c0 19.152344 15.523437 34.675781 34.675781 34.675781h230.375c19.148438 0 34.675782-15.523437 34.675782-34.675781v-5.324219zm0 0" fill="transparent">
+
+                        </path>
+                        <path d="m205.191406 276.546875c-3.886718-.003906-7.421875-2.257813-9.0625-5.785156-1.640625-3.523438-1.085937-7.679688 1.417969-10.65625l22.457031-26.683594-22.460937-26.683594c-3.488281-4.230469-2.917969-10.480469 1.273437-14.011719 4.195313-3.53125 10.453125-3.023437 14.027344 1.132813l27.878906 33.125c3.132813 3.722656 3.132813 9.15625 0 12.878906l-27.875 33.121094c-1.898437 2.261719-4.703125 3.566406-7.65625 3.5625zm0 0">
+                        </path>
+                        <path d="m114.8125 276.546875c-2.953125.003906-5.753906-1.300781-7.652344-3.5625l-27.882812-33.121094c-3.132813-3.722656-3.132813-9.15625 0-12.878906l27.882812-33.125c3.570313-4.15625 9.828125-4.664063 14.023438-1.132813 4.195312 3.53125 4.761718 9.78125 1.273437 14.011719l-22.453125 26.683594 22.457032 26.683594c2.503906 2.972656 3.058593 7.128906 1.417968 10.65625-1.640625 3.523437-5.175781 5.78125-9.0625 5.78125zm0 0">
+                        </path>
+                        <g>
+                            <path d="m151.585938 298.628906c-5.527344 0-10.007813-4.476562-10.011719-10-.003907-.507812.035156-1.007812.109375-1.507812l16.859375-110.398438c.835937-5.460937 5.9375-9.210937 11.398437-8.378906 5.457032.835938 9.207032 5.9375 8.375 11.398438l-16.859375 110.398437c-.746093 4.875-4.9375 8.480469-9.871093 8.488281zm0 0">
+                            </path>
+                            <path d="m319.878906 91.214844s-.035156-.007813-.035156-.011719c-.039062-.335937-.097656-.671875-.175781-1.003906 0-.007813-.007813-.011719-.011719-.015625-.070312-.328125-.160156-.652344-.257812-.96875-.011719-.03125-.027344-.0625-.039063-.101563-.09375-.285156-.199219-.566406-.320313-.839843-.027343-.066407-.0625-.132813-.097656-.199219-.109375-.234375-.222656-.464844-.347656-.691407-.050781-.09375-.109375-.183593-.167969-.277343-.113281-.1875-.226562-.375-.351562-.558594-.078125-.105469-.160157-.210937-.238281-.316406-.121094-.15625-.242188-.316407-.371094-.464844-.089844-.109375-.1875-.210937-.285156-.316406-.132813-.140625-.265626-.277344-.398438-.414063-.042969-.039062-.082031-.085937-.125-.128906l-88.902344-82.246094c-.066406-.066406-.144531-.121094-.214844-.183594-.121093-.101562-.242187-.207031-.367187-.304687-.125-.101563-.242187-.1875-.367187-.277344-.125-.089843-.269532-.195312-.40625-.285156-.121094-.078125-.246094-.148437-.371094-.222656-.152344-.089844-.300782-.175781-.460938-.257813-.117187-.0625-.234375-.117187-.355468-.171875-.167969-.078125-.335938-.160156-.507813-.226562-.121094-.050781-.238281-.089844-.359375-.132813-.179688-.0625-.355469-.128906-.539062-.183594-.128907-.035156-.257813-.066406-.386719-.097656-.179688-.046875-.351563-.09375-.535157-.128906-.164062-.03125-.332031-.050781-.5-.074219-.144531-.0234372-.292968-.050781-.441406-.0624998-.324218-.03125-.648437-.0507812-.976562-.0507812h-176.148438c-24.691406.015625-44.722656 19.992188-44.81249975 44.683594v310.644531c.08984375 24.6875 20.12109375 44.660156 44.81249975 44.675781h230.375c24.6875-.015625 44.71875-19.988281 44.8125-44.675781v-263.074219c-.023437-.347656-.066406-.695312-.125-1.039062zm-88.875-58.335938 53.328125 49.125h-46.03125c-3.921875.113282-7.1875-2.976562-7.296875-6.898437 0-.066407 0-.132813 0-.191407zm44.1875 347.125h-230.375c-13.648437-.003906-24.734375-11.027344-24.8125-24.675781v-310.644531c.078125-13.648438 11.164063-24.675782 24.8125-24.679688h166.1875v54.910156c.019532 14.980469 12.179688 27.109376 27.160156 27.089844h61.839844v253.324219c-.082031 13.648437-11.164062 24.671875-24.8125 24.675781zm0 0"
+                            ></path>
+                        </g>
+                    </svg>
+                    <h3 className="text-2xl font-medium">Web Development & Optimization</h3>
+                    <p className="text-[#b4afc6]">I build responsive, fast, and scalable websites with performance optimization in mind, ensuring smooth functionality, speed, and reliability for the best user experience..</p>
+                </article>
+
             </section>
         </div >
     );

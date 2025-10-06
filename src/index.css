@@ -12,3 +12,20 @@ body{
     font-family: 'Poppins', sans-serif;
 
 }
+
+/* Chrome, Safari, Opera */
+.progress-custom::-webkit-progress-bar {
+  background-color: white; /* Tailwind gray-800 fallback */
+  border-radius: 8px;
+}
+
+.progress-custom::-webkit-progress-value {
+  background-color: #00c0ff; /* your desired color */
+  border-radius: 8px;
+}
+
+/* Firefox */
+.progress-custom::-moz-progress-bar {
+  background-color: #00c0ff;
+  border-radius: 8px;
+}
