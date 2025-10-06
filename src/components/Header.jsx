@@ -49,7 +49,7 @@ export default function Header() {
     const [isOpen, setIsOpen] = useState(false);
 
     return (
-        <header className="w-full fixed px-6 lg:px-60 md:py-6 bg-[#00c0ff] text-white p-4 flex justify-between items-center z-50">
+        <header className="w-full fixed px-6 lg:px-[200px] md:py-6 bg-[#00c0ff] text-white p-4 flex justify-between items-center z-50">
             <Link to="/"><img src="/logo.png" alt="My Portfolio" className="w-20 h-auto aspect-auto object-fit no-repeat center object-cover" /></Link>
 
             <nav className="hidden md:block">

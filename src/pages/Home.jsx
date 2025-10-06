@@ -13,11 +13,11 @@ export default function Home() {
 
 
     return (
-        <div className="p-3 md:p-8 w-[95vw] lg:w-[79vw] mx-auto space-y-20">
+        <div className="p-3 md:p-8 w-[95vw] lg:w-[80vw] mx-auto space-y-20">
             {/* hero section */}
             <section id="hero" className="w-full flex flex-col-reverse lg:flex-row gap-2 lg:gap-5 justify-between items-center pt-40">
                 <aside className="w-full lg:w-1/2 space-y-6 text-center lg:text-left">
-                    <h1 className="text-4xl lg:text-8xl text-white font-bold leading-12 ">Henry <span className="block text-[#00c0ff]"> Nwobodo C.</span> <span className="block text-xl font-bold max-w-md:text-center"> Co-Founder <span className="text-[#00c0ff]">|</span> CTO -  DragsDev</span></h1>
+                    <h1 className="text-4xl lg:text-8xl text-white font-bold !leading-12 ">Henry <span className="block text-[#00c0ff]"> Nwobodo C.</span> <span className="block text-xl font-bold max-w-md:text-center"> Co-Founder <span className="text-[#00c0ff]">|</span> CTO -  DragsDev</span></h1>
                     <h3 className="text-white text-2xl md:text-3xl font-bold ">Frontend <span className="text-[#00c0ff]">|</span> WordPress Developer</h3>
                     <p className="text-white font-medium text-base md:text-xl">I specialize in developing robust platforms, including cab booking systems, e-commerce websites, and custom business applications. My focus is on writing clean code, optimizing performance, and delivering results-driven web development.</p>
                     <Link to="/contact" className="inline-block  w-full lg:w-[200px] relative overflow-hidden p-5 rounded-3xl text-center 
@@ -135,7 +135,7 @@ export default function Home() {
             {/* about me section */}
             <section>
                 <h2 className="text-xl font-medium mb-8 text-center text-[#00c0ff]">About Me</h2>
-                <p className="text-3xl lg:text-5xl font-semibold text-center text-white leading-[1.3] font-poppins">A Passionate Developer <span className="block">Who Loves to Code</span></p>
+                <p className="text-3xl lg:text-5xl font-semibold text-center text-white !leading-[1.3] font-poppins">A Passionate Developer <span className="block">Who Loves to Code</span></p>
 
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mt-16">
                     <div data-aos="fade-up" className="flex-col gap-2">
@@ -145,7 +145,7 @@ export default function Home() {
 
                     <div data-aos="fade-down" className="flex flex-col gap-6 justify-center text-white">
                         <h3 className="text-2xl lg:text-3xl font-bold">About Me</h3>
-                        <p className="leading-7 lg:leading-10" >I am Henry Nwobodo <a className="text-[#00c0ff] font-bold" href="https://github.com/RextechITS" target="_blank">(github)</a>, a results-driven Front-End & WordPress Web Developer and ICT Specialist with a passion for building innovative digital solutions that solve real-world problems. As co-founder of Drags Development (DragsDev) and Web dev of BMG Entertainments, I specialize in designing and developing high-performance web applications, streamlining IT infrastructures, and driving digital transformation across various industries.
+                        <p className="!leading-7 lg:!leading-10" >I am Henry Nwobodo <a className="text-[#00c0ff] font-bold" href="https://github.com/RextechITS" target="_blank">(github)</a>, a results-driven Front-End & WordPress Web Developer and ICT Specialist with a passion for building innovative digital solutions that solve real-world problems. As co-founder of Drags Development (DragsDev) and Web dev of BMG Entertainments, I specialize in designing and developing high-performance web applications, streamlining IT infrastructures, and driving digital transformation across various industries.
 
                             With hands-on experience in PHP, Laravel, JavaScript, MySQL, and system architecture, I’ve successfully delivered projects ranging from Crypto and Trading websites and E-commerce systems to organizational websites and custom business tools. My approach prioritizes clean code, responsive design, and seamless user experience — all aligned with business objectives.</p>
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
@@ -198,7 +198,7 @@ export default function Home() {
             {/* Skills */}
             <section className="space-y-5">
                 <h2 className="text-xl font-medium mb-8 text-center text-[#00c0ff]">Skills</h2>
-                <p className="text-3xl lg:text-5xl font-semibold text-center text-white leading-[1.3] font-poppins">A Passionate Developer <span className="block">Who works hard towards perfection</span></p>
+                <p className="text-3xl lg:text-5xl font-semibold text-center text-white !leading-[1.3] font-poppins">A Passionate Developer <span className="block">Who works hard towards perfection</span></p>
 
                 <div className="w-full grid grid-cols-1 md:grid-cols-2 gap-3 lg:gap-6 ">
                     <div data-aos="fade-up">
@@ -366,6 +366,128 @@ export default function Home() {
                 </article>
 
             </section>
+
+            {/* Experience */}
+            <section>
+                <h2 className="text-xl font-medium mb-8 text-center text-[#00c0ff]">Professional Experience</h2>
+                <p className="text-3xl lg:text-5xl font-semibold text-center text-white !leading-[1.3] font-poppins">I Worked for Some Big Establishments <span className="block">And also participated in lots of NDA Projects</span></p>
+
+                <div className="grid grid-cols-1 lg:grid-cols-2 mt-6 lg:mt-10">
+                    <div className="border-l py-5 flex flex-col gap-10 max-sm:ml-3">
+                        <div className="flex gap-4">
+                            <div className="bg-[#00c0ff] p-3 h-[55px] rounded-full -ml-7">
+                                <svg fill="#fff" width="30px" height="30px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24"><path d="M17,15.5V17c0,0.6-0.4,1-1,1s-1-0.4-1-1v-1.5H9V17c0,0.6-0.4,1-1,1s-1-0.4-1-1v-1.5H5c-0.7,0-1.4-0.2-2-0.5v4c0,1.7,1.3,3,3,3h12c1.7,0,3-1.3,3-3v-4c-0.6,0.3-1.3,0.5-2,0.5H17z M21,6h-4V5c0-1.7-1.3-3-3-3h-4C8.3,2,7,3.3,7,5v1H3C2.4,6,2,6.4,2,7v4c0,1.7,1.3,3,3,3h14c1.7,0,3-1.3,3-3V7C22,6.4,21.6,6,21,6z M15,6H9V5c0-0.6,0.4-1,1-1h4c0.6,0,1,0.4,1,1V6z" /></svg>
+                            </div>
+                            <div className="w-full lg:w-[80%] flex flex-col md:flex-row justify-between ">
+                                <div>
+                                    <p className="text-[#00c0ff]">Front-End | WordPress Developer</p>
+                                    <p className="text-white">Ichie Group </p>
+                                </div>
+
+                                <div>
+                                    <p className="text-white">2024 - Present</p>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div className="flex gap-4">
+                            <div className="bg-[#00c0ff] p-3 h-[55px] rounded-full -ml-7">
+                                <svg fill="#fff" width="30px" height="30px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24"><path d="M17,15.5V17c0,0.6-0.4,1-1,1s-1-0.4-1-1v-1.5H9V17c0,0.6-0.4,1-1,1s-1-0.4-1-1v-1.5H5c-0.7,0-1.4-0.2-2-0.5v4c0,1.7,1.3,3,3,3h12c1.7,0,3-1.3,3-3v-4c-0.6,0.3-1.3,0.5-2,0.5H17z M21,6h-4V5c0-1.7-1.3-3-3-3h-4C8.3,2,7,3.3,7,5v1H3C2.4,6,2,6.4,2,7v4c0,1.7,1.3,3,3,3h14c1.7,0,3-1.3,3-3V7C22,6.4,21.6,6,21,6z M15,6H9V5c0-0.6,0.4-1,1-1h4c0.6,0,1,0.4,1,1V6z" /></svg>
+                            </div>
+                            <div className="w-full lg:w-[80%] flex flex-col md:flex-row justify-between ">
+                                <div>
+                                    <p className="text-[#00c0ff]">Front-End | WordPress Developer</p>
+                                    <p className="text-white">DragsDev - <span className="text-[#00c0ff]">CO-Founder</span> </p>
+                                </div>
+
+                                <div>
+                                    <p className="text-white">2020 - Present</p>
+                                </div>
+                            </div>
+
+                        </div>
+
+
+                        <div className="flex gap-4">
+                            <div className="bg-[#00c0ff] p-3 h-[55px] rounded-full -ml-7">
+                                <svg fill="#fff" width="30px" height="30px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24"><path d="M17,15.5V17c0,0.6-0.4,1-1,1s-1-0.4-1-1v-1.5H9V17c0,0.6-0.4,1-1,1s-1-0.4-1-1v-1.5H5c-0.7,0-1.4-0.2-2-0.5v4c0,1.7,1.3,3,3,3h12c1.7,0,3-1.3,3-3v-4c-0.6,0.3-1.3,0.5-2,0.5H17z M21,6h-4V5c0-1.7-1.3-3-3-3h-4C8.3,2,7,3.3,7,5v1H3C2.4,6,2,6.4,2,7v4c0,1.7,1.3,3,3,3h14c1.7,0,3-1.3,3-3V7C22,6.4,21.6,6,21,6z M15,6H9V5c0-0.6,0.4-1,1-1h4c0.6,0,1,0.4,1,1V6z" /></svg>
+                            </div>
+                            <div className="w-full lg:w-[80%] flex flex-col md:flex-row justify-between ">
+                                <div>
+                                    <p className="text-[#00c0ff]">E-commerce Developer & Manager</p>
+                                    <p className="text-white">Presto Mart LTD. </p>
+                                </div>
+
+                                <div>
+                                    <p className="text-white">2023 - 2025</p>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div className="border-l py-5 flex flex-col gap-10 max-sm:ml-3">
+
+                        <div className="flex gap-4">
+                            <div className="bg-[#00c0ff] p-3 h-[55px] rounded-full -ml-7">
+                                <svg fill="#fff" width="30px" height="30px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24"><path d="M17,15.5V17c0,0.6-0.4,1-1,1s-1-0.4-1-1v-1.5H9V17c0,0.6-0.4,1-1,1s-1-0.4-1-1v-1.5H5c-0.7,0-1.4-0.2-2-0.5v4c0,1.7,1.3,3,3,3h12c1.7,0,3-1.3,3-3v-4c-0.6,0.3-1.3,0.5-2,0.5H17z M21,6h-4V5c0-1.7-1.3-3-3-3h-4C8.3,2,7,3.3,7,5v1H3C2.4,6,2,6.4,2,7v4c0,1.7,1.3,3,3,3h14c1.7,0,3-1.3,3-3V7C22,6.4,21.6,6,21,6z M15,6H9V5c0-0.6,0.4-1,1-1h4c0.6,0,1,0.4,1,1V6z" /></svg>
+                            </div>
+                            <div className="w-full lg:w-[80%] flex flex-col md:flex-row justify-between ">
+                                <div>
+                                    <p className="text-[#00c0ff]">Freelance Web developer</p>
+                                    <p className="text-white">Yogicescape Berlin </p>
+                                </div>
+
+                                <div>
+                                    <p className="text-white">June - October 2025 </p>
+                                </div>
+                            </div>
+
+                        </div>
+
+
+
+                        <div className="flex gap-4">
+                            <div className="bg-[#00c0ff] p-3 h-[55px] rounded-full -ml-7">
+                                <svg fill="#fff" width="30px" height="30px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24"><path d="M17,15.5V17c0,0.6-0.4,1-1,1s-1-0.4-1-1v-1.5H9V17c0,0.6-0.4,1-1,1s-1-0.4-1-1v-1.5H5c-0.7,0-1.4-0.2-2-0.5v4c0,1.7,1.3,3,3,3h12c1.7,0,3-1.3,3-3v-4c-0.6,0.3-1.3,0.5-2,0.5H17z M21,6h-4V5c0-1.7-1.3-3-3-3h-4C8.3,2,7,3.3,7,5v1H3C2.4,6,2,6.4,2,7v4c0,1.7,1.3,3,3,3h14c1.7,0,3-1.3,3-3V7C22,6.4,21.6,6,21,6z M15,6H9V5c0-0.6,0.4-1,1-1h4c0.6,0,1,0.4,1,1V6z" /></svg>
+                            </div>
+                            <div className="w-full lg:w-[80%] flex flex-col md:flex-row justify-between ">
+                                <div>
+                                    <p className="text-[#00c0ff]">E-commerce Developer & Manager</p>
+                                    <p className="text-white">St. Pauls Bookstore (SSP) </p>
+                                </div>
+
+                                <div>
+                                    <p className="text-white">2022 - 2024</p>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div className="flex gap-4">
+                            <div className="bg-[#00c0ff] p-3 h-[55px] rounded-full -ml-7">
+                                <svg fill="#fff" width="30px" height="30px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24"><path d="M17,15.5V17c0,0.6-0.4,1-1,1s-1-0.4-1-1v-1.5H9V17c0,0.6-0.4,1-1,1s-1-0.4-1-1v-1.5H5c-0.7,0-1.4-0.2-2-0.5v4c0,1.7,1.3,3,3,3h12c1.7,0,3-1.3,3-3v-4c-0.6,0.3-1.3,0.5-2,0.5H17z M21,6h-4V5c0-1.7-1.3-3-3-3h-4C8.3,2,7,3.3,7,5v1H3C2.4,6,2,6.4,2,7v4c0,1.7,1.3,3,3,3h14c1.7,0,3-1.3,3-3V7C22,6.4,21.6,6,21,6z M15,6H9V5c0-0.6,0.4-1,1-1h4c0.6,0,1,0.4,1,1V6z" /></svg>
+                            </div>
+                            <div className="w-full lg:w-[80%] flex flex-col md:flex-row justify-between ">
+                                <div>
+                                    <p className="text-[#00c0ff]">ISP Kano</p>
+                                    <p className="text-white">IT Speacialist</p>
+                                </div>
+
+                                <div>
+                                    <p className="text-white">2017 - 2018</p>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+            </section>
+
         </div >
     );
 }
