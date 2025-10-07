@@ -77,7 +77,7 @@ export default function Testimonials() {
             >
                 {testimonials.map((testimony) => (
                     <SwiperSlide key={testimony.id}>
-                        <div className="bg-transparent p-10 rounded-xl shadow-lg text-center flex flex-col items-center gap-5">
+                        <div className="bg-transparent p-5 md:p-10 rounded-xl shadow-lg text-center flex flex-col items-center gap-5">
                             <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="70px" x="0px" y="0px"
                                 viewBox="0 0 191.029 191.029" xml:space="preserve">
                                 <path fill="#00c0ff" d="M44.33,88.474v15.377h38.417v82.745H0v-82.745h0.002V88.474c0-31.225,8.984-54.411,26.704-68.918

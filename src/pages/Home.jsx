@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import { useEffect } from "react";
 import Onwellooo from "../assets/Onwellooo.png";
 import AboutMe from "../components/AboutMe";
+import ContactForm from "../components/ContactForm";
 // import CountUp from "react-countup";
 import Testimonials from "../components/Testimonial";
 import Stats from "../components/Stats";
@@ -581,6 +582,13 @@ export default function Home() {
 
             </section>
 
+
+            {/* Contact Form */}
+            <section className="space-y-6">
+                <h2 className="text-xl font-medium mb-8 text-center text-[#00c0ff]">Contact  </h2>
+                <ContactForm />
+
+            </section>
         </div >
     );
 }
