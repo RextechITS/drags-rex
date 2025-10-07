@@ -3,6 +3,7 @@ import { useEffect } from "react";
 import Onwellooo from "../assets/Onwellooo.png";
 import AboutMe from "../components/AboutMe";
 // import CountUp from "react-countup";
+import Testimonials from "../components/Testimonial";
 import Stats from "../components/Stats";
 import Portfolio from "../components/Portfolio";
 import HtmlImg from "../assets/details-icon-html.png";
@@ -573,13 +574,10 @@ export default function Home() {
             </section>
 
             {/* Testimonials */}
-            <section className="space-y-10">
+            <section className="space-y-6">
                 <h2 className="text-xl font-medium mb-8 text-center text-[#00c0ff]">Testimonial </h2>
                 <p className="text-3xl lg:text-5xl font-semibold text-center text-white !leading-[1.3] font-poppins">What Our Clients Say</p>
-
-                <p className="text-lg text-white w-full lg:w-[60%] mx-auto text-center">Explore a curated list of web development projects ranging from dynamic content platforms to full-scale business applications. Each project showcases a blend of creativity, usability, and functionality.</p>
-
-
+                <Testimonials />
 
             </section>
 

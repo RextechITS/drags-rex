@@ -1,5 +1,6 @@
 import { useEffect } from "react";
 import Portfolio from "../components/Portfolio";
+import Testimonials from "../components/Testimonial";
 
 export default function Projects() {
 
@@ -17,6 +18,8 @@ export default function Projects() {
                 <p className="text-lg text-white w-full lg:w-[60%] mx-auto text-center">Explore a curated list of web development projects ranging from dynamic content platforms to full-scale business applications. Each project showcases a blend of creativity, usability, and functionality.</p>
 
                 <Portfolio />
+
+                <Testimonials />
 
             </section>
         </div>
