@@ -9,7 +9,7 @@ export default function About() {
 
 
     return (
-        <div className="p-8 w-[90vw] mx-auto pt-40">
+        <div className="p-3 md:p-8 w-[95vw] lg:w-[80vw] mx-auto space-y-20 ">
             <AboutMe />
         </div>
     );

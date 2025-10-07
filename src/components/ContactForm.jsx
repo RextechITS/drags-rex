@@ -1,36 +1,41 @@
-import { useRef } from "react";
+import { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
+import Swal from "sweetalert2";
+import { showAlert } from "../utils/Alert";
 
 export default function ContactForm() {
     const form = useRef();
+    const [loading, setLoading] = useState(false); // ✅ properly initialized
 
     const sendEmail = (e) => {
         e.preventDefault();
+        setLoading(true); // show loading state
 
         emailjs
             .sendForm(
-                "service_qlg5qhh",    // from EmailJS dashboard
-                "template_eec8btn",   // from EmailJS dashboard
+                "service_qlg5qhh", // your EmailJS service ID
+                "template_eec8btn", // your template ID
                 form.current,
-                "TiBuhVl8gjSTLkJab"     // your EmailJS public key
+                "TiBuhVl8gjSTLkJab" // your public key
             )
             .then(
-                (result) => {
-                    console.log("Email sent:", result.text);
-                    alert("Message sent successfully!");
+                () => {
+                    showAlert("success", "Message Sent!", "Your message has been delivered successfully.");
+                    form.current.reset();
+                    setLoading(false);
                 },
-                (error) => {
-                    console.error("Error:", error.text);
-                    alert("Failed to send message.");
+                () => {
+                    showAlert("error", "Oops!", "Something went wrong while sending your message. Please try again.");
+                    setLoading(false);
                 }
             );
     };
 
     return (
         <>
-            <div className="grid grid-cols-1 md:grid-cols-2" >
+            <div className="grid grid-cols-1 md:grid-cols-2 " >
 
-                <div className=" py-5 flex flex-col gap-10 ">
+                <div className=" py-5 grid grid-cols-1 md:grid-cols-2 gap-5">
 
                     <div data-aos="fade-down" className="flex gap-4">
                         <div className="bg-[#00c0ff] p-3 h-[55px] rounded-full">
@@ -115,11 +120,43 @@ export default function ContactForm() {
 
                 </div>
 
-                <form ref={form} onSubmit={sendEmail} className="max-w-md mx-auto mt-10 space-y-4">
-                    <input type="text" name="user_name" placeholder="Your Name" className="w-full p-3 rounded bg-white/5 text-white" required />
-                    <input type="email" name="user_email" placeholder="Your Email" className="w-full p-3 rounded bg-white/5 text-white" required />
-                    <textarea name="message" placeholder="Your Message" className="w-full p-3 rounded bg-white/5 text-white" rows="5" required></textarea>
-                    <button type="submit" className="bg-[#00c0ff] px-6 py-3 rounded text-white font-semibold hover:bg-[#00a9e0] transition-all">Send Message</button>
+                <form
+                    ref={form}
+                    onSubmit={sendEmail}
+                    className="max-w-lg mx-auto mt-10 space-y-4"
+                >
+                    <input
+                        type="text"
+                        name="user_name"
+                        placeholder="Your Name"
+                        className="w-full p-3 rounded bg-white/5 text-white"
+                        required
+                    />
+                    <input
+                        type="email"
+                        name="user_email"
+                        placeholder="Your Email"
+                        className="w-full p-3 rounded bg-white/5 text-white"
+                        required
+                    />
+                    <textarea
+                        name="message"
+                        placeholder="Your Message"
+                        className="w-full p-3 rounded bg-white/5 text-white"
+                        rows="5"
+                        required
+                    ></textarea>
+
+                    <button
+                        type="submit"
+                        disabled={loading}
+                        className={`${loading
+                            ? "bg-gray-500 cursor-not-allowed"
+                            : "bg-[#00c0ff] hover:bg-[#00a9e0]"
+                            } px-6 py-3 rounded text-white font-semibold transition-all`}
+                    >
+                        {loading ? "Sending..." : "Send Message"}
+                    </button>
                 </form>
             </div>
 

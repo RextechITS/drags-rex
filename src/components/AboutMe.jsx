@@ -5,7 +5,7 @@ import Stats from "../components/Stats";
 export default function AboutMe() {
     return (
 
-        <section >
+        <section className="pt-40">
             <h2 className="text-xl font-medium mb-8 text-center text-[#00c0ff]">About Me</h2>
             <p className="text-2xl lg:text-5xl font-semibold text-center text-white !leading-[1.3] font-poppins">A Passionate Developer <span className="block">Who Loves to Code</span></p>
 
