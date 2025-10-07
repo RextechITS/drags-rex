@@ -4,7 +4,21 @@ import Onwellooo from "../assets/Onwellooo.png";
 import mywebimage from "../assets/mywebimage.webp";
 // import CountUp from "react-countup";
 import Stats from "../components/Stats";
-
+import Portfolio from "../components/Portfolio";
+import HtmlImg from "../assets/details-icon-html.png";
+import CSSImg from "../assets/details-icon-css.png";
+import JSImg from "../assets/details-icon-javascript.png";
+import AlpineJs from "../assets/alpine_js.png";
+import CorelDraw from "../assets/coreldraw.png";
+import BootStrap from "../assets/details-icon-bootstrap.png";
+import GitHub from "../assets/git.png";
+import JQuery from "../assets/jquery.png";
+import Laravel from "../assets/laravel.png";
+import MySQL from "../assets/mysql.png";
+import PhpImg from "../assets/php.png";
+import PhotoShop from "../assets/photoshop.png";
+import ReactImg from "../assets/react.png";
+import TailWind from "../assets/tailwind.jpg";
 export default function Home() {
 
     useEffect(() => {
@@ -565,13 +579,34 @@ export default function Home() {
                 <h4 className="text-[#00c0ff] text-2xl text-center">Tech Stack</h4>
                 <p className="text-white text-center">
                     My core stack covers frontend, backend, database, and design technologies. I build and maintain applications using:
+
                 </p>
+
+                <div className="grid grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-10">
+                    <img src={HtmlImg} alt="" srcset="" className="rounded-lg h-24 cover" />
+                    <img src={CSSImg} alt="" className="rounded-lg h-24 w-24 cover" />
+                    <img src={JSImg} alt="" className="rounded-lg h-24 w-24 cover" />
+                    <img src={TailWind} alt="" className="rounded-lg h-24 w-24 cover" />
+                    <img src={ReactImg} alt="" className="rounded-lg h-24 w-24 cover" />
+                    <img src={PhotoShop} alt="" className="rounded-lg h-24 w-24 cover" />
+                    <img src={AlpineJs} alt="" className="rounded-lg h-24 w-24 cover" />
+                    <img src={PhpImg} alt="" className="rounded-lg h-24 w-24 cover" />
+                    <img src={MySQL} alt="" className="rounded-lg h-24 w-24 cover" />
+                    <img src={Laravel} alt="" className="rounded-lg h-24 w-24 cover" />
+                    <img src={JQuery} alt="" className="rounded-lg h-24 w-24 cover" />
+                    <img src={GitHub} alt="" className="rounded-lg h-24 w-24 cover" />
+                    <img src={BootStrap} alt="" className="rounded-lg h-24 w-24 cover" />
+                    <img src={CorelDraw} alt="" className="rounded-lg h-24 w-24 cover" />
+                </div>
+
             </section>
 
             {/* portfolio */}
-            <section>
+            <section className="space-y-10">
                 <h2 className="text-xl font-medium mb-8 text-center text-[#00c0ff]">Portfolio</h2>
                 <p className="text-3xl lg:text-5xl font-semibold text-center text-white !leading-[1.3] font-poppins">I Worked for Some Big Establishments <span className="block">And also participated in lots of NDA Projects</span></p>
+
+                <Portfolio />
 
             </section>
 
