@@ -8,6 +8,7 @@ import ANAK from "../assets/anakimg.png";
 import KSE from "../assets/kseimg.png";
 import WNL from "../assets/wnlimg.png";
 import YOGIC from "../assets/yogic.png";
+import RexTechImg from "../assets/RexTechImg.png";
 
 export default function Portfolio() {
     const [active, setActive] = useState("allPortfolio");
@@ -35,6 +36,16 @@ export default function Portfolio() {
                                     <h4 className="font-semibold text-xl" >Ichie Group</h4>
                                     <p>One of the best Tech Companies in Nigeria, speacializing in web development, software development, App development etc...</p>
                                     <a href="https://ichie.io" target="_blank" rel="noopener noreferrer" className="text-[#00c0ff] font-medium"> Visit Website </a>
+
+                                </div>
+                            </div>
+
+                            <div className="bg-[#3a2b71] rounded-tl-xl rounded-tr-xl ">
+                                <img src={RexTechImg} alt="" className="rounded-tl-xl rounded-tr-xl  w-full bg-cover h-60" />
+                                <div className="bg-[#3a2b71] p-5 flex flex-col gap-3 text-white" >
+                                    <h4 className="font-semibold text-xl" > Rex Technologies and IT Solutions</h4>
+                                    <p>Personal Developer Portfolio Website detailing all about the developer and their experiences</p>
+                                    <a href="https://rex-henry.vercel.app/" target="_blank" rel="noopener noreferrer" className="text-[#00c0ff] font-medium"> Visit Website </a>
 
                                 </div>
                             </div>
@@ -235,10 +246,18 @@ export default function Portfolio() {
 
                         <>
 
-                            <div className="text-white text-xl">All custom code projects ive recenly developed are all NDA projects... <span className="block">Public Custom code projects coming soon... </span></div>
+                            <div className="text-white text-center text-xl mb-20">All custom code projects ive recenly developed are all NDA projects... <span className="block">More Public Custom code projects coming soon... </span></div>
 
                             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 animate-fadeIn">
+                                <div className="bg-[#3a2b71] rounded-tl-xl rounded-tr-xl ">
+                                    <img src={RexTechImg} alt="" className="rounded-tl-xl rounded-tr-xl  w-full bg-cover h-60" />
+                                    <div className="bg-[#3a2b71] p-5 flex flex-col gap-3 text-white" >
+                                        <h4 className="font-semibold text-xl" > Rex Technologies and IT Solutions</h4>
+                                        <p>Personal Developer Portfolio Website detailing all about the developer and their experiences</p>
+                                        <a href="https://rex-henry.vercel.app/" target="_blank" rel="noopener noreferrer" className="text-[#00c0ff] font-medium"> Visit Website </a>
 
+                                    </div>
+                                </div>
 
                             </div>
                         </>
