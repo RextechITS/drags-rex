@@ -45,8 +45,8 @@ export default function Home() {
                     </Link>
                 </aside>
                 <aside>
-                    <div className="rounded-full bg-[#00c0ff] relative w-72 h-72 lg:w-96 lg:h-96 flex justify-center items-center transform -rotate-12">
-                        <img src={Onwellooo} alt="Bishop" className="w-full h-full object-cover object-center absolute top-0 transform -rotate-12" />
+                    <div className="rounded-full bg-[#00c0ff] relative w-96 h-96 lg:w-[500px] lg:h-[500px] flex justify-center items-center overflow-hidden">
+                        <img src={Onwellooo} alt="Bishop" className="w-72 lg:w-[350px] h-full lg:h-[500px] object-cover object-center absolute -bottom-5 right-10" />
                     </div>
                 </aside>
             </section>
