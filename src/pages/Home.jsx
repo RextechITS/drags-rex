@@ -145,7 +145,6 @@ export default function Home() {
                     <p className="text-[#b4afc6]">Technology evolves daily, and I stay ahead by constantly learning and experimenting. From exploring new frameworks to sharpening my SEO and optimization strategies, I dedicate time to growth so I can bring fresh ideas and modern approaches into every project.</p>
                 </article>
 
-
             </section>
 
             {/* about me section */}
@@ -581,7 +580,6 @@ export default function Home() {
                 <Testimonials />
 
             </section>
-
 
             {/* Contact Form */}
             <section className="space-y-6">
