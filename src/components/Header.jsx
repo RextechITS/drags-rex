@@ -102,7 +102,7 @@ export default function Header() {
             </button>
 
             {/* mobile menu */}
-            <nav className={`md:hidden absolute w-full h-[100vh] top-16 left-0 bg-blue-700 px-5 backdrop-blur-3xl transform transition-all duration-700 ease-in-out 
+            <nav className={`md:hidden absolute w-full h-[100vh] top-16 left-0 bg-gray-600 px-5 backdrop-blur-3xl transform transition-all duration-700 ease-in-out 
                     ${isOpen ? "opacity-100 translate-y-0" : "opacity-0 -translate-y-10 pointer-events-none"}
                 `} >
                 <ul className="flex flex-col gap-4 mt-2" >
