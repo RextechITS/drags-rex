@@ -106,10 +106,10 @@ export default function Header() {
                     ${isOpen ? "opacity-100 translate-y-0" : "opacity-0 -translate-y-10 pointer-events-none"}
                 `} >
                 <ul className="flex flex-col gap-4 mt-2" >
-                    <li><NavLink to="/" className={({ isActive }) => isActive ? " text-[#00c0ff] underline font-bold" : ""} onClick={() => setIsOpen(false)}>Home</NavLink></li>
-                    <li><NavLink to="/about" className={({ isActive }) => isActive ? "text-[#00c0ff] font-bold" : ""} onClick={() => setIsOpen(false)}>About</NavLink></li>
-                    <li><NavLink to="/projects" className={({ isActive }) => isActive ? "text-[#00c0ff] font-bold" : ""} onClick={() => setIsOpen(false)}>Projects</NavLink></li>
-                    <li><NavLink to="/contact" className={({ isActive }) => isActive ? "text-[#00c0ff] font-bold" : ""} onClick={() => setIsOpen(false)}>Contact</NavLink></li>
+                    <li><NavLink to="/" className={({ isActive }) => isActive ? " text-[#00c0ff] underline underline-offset-4 font-bold" : ""} onClick={() => setIsOpen(false)}>Home</NavLink></li>
+                    <li><NavLink to="/about" className={({ isActive }) => isActive ? "text-[#00c0ff] underline underline-offset-4 font-bold" : ""} onClick={() => setIsOpen(false)}>About</NavLink></li>
+                    <li><NavLink to="/projects" className={({ isActive }) => isActive ? "text-[#00c0ff] underline underline-offset-4 font-bold" : ""} onClick={() => setIsOpen(false)}>Projects</NavLink></li>
+                    <li><NavLink to="/contact" className={({ isActive }) => isActive ? "text-[#00c0ff] underline underline-offset-4 font-bold" : ""} onClick={() => setIsOpen(false)}>Contact</NavLink></li>
                 </ul>
             </nav>
 
