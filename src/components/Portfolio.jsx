@@ -30,7 +30,7 @@ export default function Portfolio() {
                     active === "allPortfolio" && (
                         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 md:gap-14 animate-fadeIn">
 
-                            <div className="bg-[#3a2b71] rounded-tl-xl rounded-tr-xl ">
+                            <div data-aos="fade-up" className="bg-[#3a2b71] rounded-tl-xl rounded-tr-xl ">
                                 <img src={Ichie} alt="" className="rounded-tl-xl rounded-tr-xl w-full bg-cover h-60" />
                                 <div className=" p-5 flex flex-col gap-3 text-white" >
                                     <h4 className="font-semibold text-xl" >Ichie Group</h4>
@@ -40,7 +40,7 @@ export default function Portfolio() {
                                 </div>
                             </div>
 
-                            <div className="bg-[#3a2b71] rounded-tl-xl rounded-tr-xl ">
+                            <div data-aos="fade-up" className="bg-[#3a2b71] rounded-tl-xl rounded-tr-xl ">
                                 <img src={RexTechImg} alt="" className="rounded-tl-xl rounded-tr-xl  w-full bg-cover h-60" />
                                 <div className="bg-[#3a2b71] p-5 flex flex-col gap-3 text-white" >
                                     <h4 className="font-semibold text-xl" > Rex Technologies and IT Solutions</h4>
@@ -50,7 +50,7 @@ export default function Portfolio() {
                                 </div>
                             </div>
 
-                            <div className="bg-[#3a2b71] rounded-tl-xl rounded-tr-xl ">
+                            <div data-aos="fade-up" className="bg-[#3a2b71] rounded-tl-xl rounded-tr-xl ">
                                 <img src={Eso} alt="" className="rounded-tl-xl rounded-tr-xl w-full bg-cover  h-60 " />
                                 <div className=" p-5 flex flex-col gap-3 text-white" >
                                     <h4 className="font-semibold text-xl" >Eso InStitute</h4>
@@ -60,7 +60,7 @@ export default function Portfolio() {
                                 </div>
                             </div>
 
-                            <div className="bg-[#3a2b71] rounded-tl-xl rounded-tr-xl ">
+                            <div data-aos="fade-up" className="bg-[#3a2b71] rounded-tl-xl rounded-tr-xl ">
                                 <img src={KSE} alt="" className="rounded-tl-xl rounded-tr-xl  w-full bg-cover h-60" />
                                 <div className="bg-[#3a2b71] p-5 flex flex-col gap-3 text-white" >
                                     <h4 className="font-semibold text-xl" >Kenya Society of Engineers</h4>
@@ -70,7 +70,7 @@ export default function Portfolio() {
                                 </div>
                             </div>
 
-                            <div className="bg-[#3a2b71] rounded-tl-xl rounded-tr-xl ">
+                            <div data-aos="fade-up" className="bg-[#3a2b71] rounded-tl-xl rounded-tr-xl ">
                                 <img src={YOGIC} alt="" className="rounded-tl-xl rounded-tr-xl  w-full bg-cover h-60" />
                                 <div className="bg-[#3a2b71] p-5 flex flex-col gap-3 text-white" >
                                     <h4 className="font-semibold text-xl" >Yogicescape - Yoga & Wellness Studio Berlin </h4>
@@ -80,7 +80,7 @@ export default function Portfolio() {
                                 </div>
                             </div>
 
-                            <div className="bg-[#3a2b71] rounded-tl-xl rounded-tr-xl ">
+                            <div data-aos="fade-up" className="bg-[#3a2b71] rounded-tl-xl rounded-tr-xl ">
                                 <img src={Dgloeke} alt="" className="rounded-tl-xl rounded-tr-xl  w-full bg-cover  h-60 " />
                                 <div className=" p-5 flex flex-col gap-3 text-white" >
                                     <h4 className="font-semibold text-xl" >Dgloeke Supplies</h4>
@@ -90,7 +90,7 @@ export default function Portfolio() {
                                 </div>
                             </div>
 
-                            <div className="bg-[#3a2b71] rounded-tl-xl rounded-tr-xl ">
+                            <div data-aos="fade-up" className="bg-[#3a2b71] rounded-tl-xl rounded-tr-xl ">
                                 <img src={SSC} alt="" className="rounded-tl-xl rounded-tr-xl  w-full bg-cover h-60" />
                                 <div className=" p-5 flex flex-col gap-3 text-white" >
                                     <h4 className="font-semibold text-xl" >Smooth Sail Construction</h4>
@@ -100,7 +100,7 @@ export default function Portfolio() {
                                 </div>
                             </div>
 
-                            <div className="bg-[#3a2b71] rounded-tl-xl rounded-tr-xl ">
+                            <div data-aos="fade-up" className="bg-[#3a2b71] rounded-tl-xl rounded-tr-xl ">
                                 <img src={ANAK} alt="" className="rounded-tl-xl rounded-tr-xl  w-full bg-cover h-60" />
                                 <div className="bg-[#3a2b71] p-5 flex flex-col gap-3 text-white" >
                                     <h4 className="font-semibold text-xl" >Association of National Accountants of Kenya</h4>
@@ -111,7 +111,7 @@ export default function Portfolio() {
                             </div>
 
 
-                            <div className="bg-[#3a2b71] rounded-tl-xl rounded-tr-xl ">
+                            <div data-aos="fade-up" className="bg-[#3a2b71] rounded-tl-xl rounded-tr-xl ">
                                 <img src={ANIYOLINS} alt="" className="rounded-tl-xl rounded-tr-xl  w-full bg-cover h-60" />
                                 <div className=" p-5 flex flex-col gap-3 text-white" >
                                     <h4 className="font-semibold text-xl" >ANI YOLINS</h4>
@@ -121,7 +121,7 @@ export default function Portfolio() {
                                 </div>
                             </div>
 
-                            <div className="bg-[#3a2b71] rounded-tl-xl rounded-tr-xl ">
+                            <div data-aos="fade-up" className="bg-[#3a2b71] rounded-tl-xl rounded-tr-xl ">
                                 <img src={WNL} alt="" className="rounded-tl-xl rounded-tr-xl  w-full bg-cover h-60" />
                                 <div className="bg-[#3a2b71] p-5 flex flex-col gap-3 text-white" >
                                     <h4 className="font-semibold text-xl" >WNL Power Solutions Limited </h4>
@@ -143,7 +143,7 @@ export default function Portfolio() {
                     active === ("WordPress") && (
                         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 animate-fadeIn">
 
-                            <div className="bg-[#3a2b71] rounded-tl-xl rounded-tr-xl ">
+                            <div data-aos="fade-up" className="bg-[#3a2b71] rounded-tl-xl rounded-tr-xl ">
                                 <img src={Ichie} alt="" className="rounded-tl-xl rounded-tr-xl  w-full bg-cover h-60" />
                                 <div className=" p-5 flex flex-col gap-3 text-white" >
                                     <h4 className="font-semibold text-xl" >Ichie Group</h4>
@@ -153,7 +153,7 @@ export default function Portfolio() {
                                 </div>
                             </div>
 
-                            <div className="bg-[#3a2b71] rounded-tl-xl rounded-tr-xl ">
+                            <div data-aos="fade-up" className="bg-[#3a2b71] rounded-tl-xl rounded-tr-xl ">
                                 <img src={ANAK} alt="" className="rounded-tl-xl rounded-tr-xl  w-full bg-cover h-60" />
                                 <div className="bg-[#3a2b71] p-5 flex flex-col gap-3 text-white" >
                                     <h4 className="font-semibold text-xl" >Association of National Accountants of Kenya</h4>
@@ -163,7 +163,7 @@ export default function Portfolio() {
                                 </div>
                             </div>
 
-                            <div className="bg-[#3a2b71] rounded-tl-xl rounded-tr-xl ">
+                            <div data-aos="fade-up" className="bg-[#3a2b71] rounded-tl-xl rounded-tr-xl ">
                                 <img src={Eso} alt="" className="rounded-tl-xl rounded-tr-xl w-full bg-cover h-60" />
                                 <div className=" p-5 flex flex-col gap-3 text-white" >
                                     <h4 className="font-semibold text-xl" >Eso InStitute</h4>
@@ -173,7 +173,7 @@ export default function Portfolio() {
                                 </div>
                             </div>
 
-                            <div className="bg-[#3a2b71] rounded-tl-xl rounded-tr-xl ">
+                            <div data-aos="fade-up" className="bg-[#3a2b71] rounded-tl-xl rounded-tr-xl ">
                                 <img src={KSE} alt="" className="rounded-tl-xl rounded-tr-xl  w-full bg-cover h-60" />
                                 <div className="bg-[#3a2b71] p-5 flex flex-col gap-3 text-white" >
                                     <h4 className="font-semibold text-xl" >Kenya Society of Engineers</h4>
@@ -183,7 +183,7 @@ export default function Portfolio() {
                                 </div>
                             </div>
 
-                            <div className="bg-[#3a2b71] rounded-tl-xl rounded-tr-xl ">
+                            <div data-aos="fade-up" className="bg-[#3a2b71] rounded-tl-xl rounded-tr-xl ">
                                 <img src={YOGIC} alt="" className="rounded-tl-xl rounded-tr-xl  w-full bg-cover h-60" />
                                 <div className="bg-[#3a2b71] p-5 flex flex-col gap-3 text-white" >
                                     <h4 className="font-semibold text-xl" >Yogicescape - Yoga & Wellness Studio Berlin </h4>
@@ -193,7 +193,7 @@ export default function Portfolio() {
                                 </div>
                             </div>
 
-                            <div className="bg-[#3a2b71] rounded-tl-xl rounded-tr-xl ">
+                            <div data-aos="fade-up" className="bg-[#3a2b71] rounded-tl-xl rounded-tr-xl ">
                                 <img src={Dgloeke} alt="" className="rounded-tl-xl rounded-tr-xl  w-full bg-cover h-60" />
                                 <div className="bg-[#3a2b71] p-5 flex flex-col gap-3 text-white" >
                                     <h4 className="font-semibold text-xl" >Dgloeke Supplies</h4>
@@ -203,7 +203,7 @@ export default function Portfolio() {
                                 </div>
                             </div>
 
-                            <div className="bg-[#3a2b71] rounded-tl-xl rounded-tr-xl ">
+                            <div data-aos="fade-up" className="bg-[#3a2b71] rounded-tl-xl rounded-tr-xl ">
                                 <img src={SSC} alt="" className="rounded-tl-xl rounded-tr-xl  w-full bg-cover h-60" />
                                 <div className=" p-5 flex flex-col gap-3 text-white" >
                                     <h4 className="font-semibold text-xl" >Smooth Sail Construction</h4>
@@ -213,7 +213,7 @@ export default function Portfolio() {
                                 </div>
                             </div>
 
-                            <div className="bg-[#3a2b71] rounded-tl-xl rounded-tr-xl ">
+                            <div data-aos="fade-up" className="bg-[#3a2b71] rounded-tl-xl rounded-tr-xl ">
                                 <img src={ANIYOLINS} alt="" className="rounded-tl-xl rounded-tr-xl  w-full bg-cover h-60" />
                                 <div className="bg-[#3a2b71] p-5 flex flex-col gap-3 text-white" >
                                     <h4 className="font-semibold text-xl" >ANI YOLINS</h4>
@@ -223,7 +223,7 @@ export default function Portfolio() {
                                 </div>
                             </div>
 
-                            <div className="bg-[#3a2b71] rounded-tl-xl rounded-tr-xl ">
+                            <div data-aos="fade-up" className="bg-[#3a2b71] rounded-tl-xl rounded-tr-xl ">
                                 <img src={WNL} alt="" className="rounded-tl-xl rounded-tr-xl  w-full bg-cover h-60" />
                                 <div className="bg-[#3a2b71] p-5 flex flex-col gap-3 text-white" >
                                     <h4 className="font-semibold text-xl" >WNL Power Solutions Limited </h4>
@@ -249,7 +249,7 @@ export default function Portfolio() {
                             <div className="text-white text-center text-xl mb-20">All custom code projects ive recenly developed are all NDA projects... <span className="block">More Public Custom code projects coming soon... </span></div>
 
                             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 animate-fadeIn">
-                                <div className="bg-[#3a2b71] rounded-tl-xl rounded-tr-xl ">
+                                <div data-aos="fade-up" className="bg-[#3a2b71] rounded-tl-xl rounded-tr-xl ">
                                     <img src={RexTechImg} alt="" className="rounded-tl-xl rounded-tr-xl  w-full bg-cover h-60" />
                                     <div className="bg-[#3a2b71] p-5 flex flex-col gap-3 text-white" >
                                         <h4 className="font-semibold text-xl" > Rex Technologies and IT Solutions</h4>
