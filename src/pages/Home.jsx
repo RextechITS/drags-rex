@@ -472,8 +472,9 @@ export default function Home() {
                     <li><span className="font-semibold"> Collaborative Network –</span> Together with my trusted partners in graphics, videography, and marketing, I provide a full range of digital services.</li>
                     <li><span className="font-semibold"> Growth Driven Results –</span> My work goes beyond building websites — I focus on helping your brand grow, engage, and succeed online.</li>
                 </ul>
-                <div data-aos="fade-up" className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
-                    <div className="flex flex-col gap-3">
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
+
+                    <div data-aos="fade-up" className="flex flex-col gap-3">
                         <h4 className="text-[#00c0ff] text-xl">Development & Workflow</h4>
                         <ul className="text-white" style={{ color: "white", listStyleType: "disc", display: "flex", flexDirection: "column", gap: "10px" }}>
                             <li>Visual Studio Code</li>
@@ -484,7 +485,7 @@ export default function Home() {
                         </ul>
                     </div>
 
-                    <div className="flex flex-col gap-3">
+                    <div data-aos="fade-up" className="flex flex-col gap-3">
                         <h4 className="text-[#00c0ff] text-xl">Web Des. & Dev. Tools</h4>
                         <ul className="text-white" style={{ color: "white", listStyleType: "disc", display: "flex", flexDirection: "column", gap: "10px" }}>
                             <li>HTML, CSS, JavaScript</li>
@@ -494,7 +495,7 @@ export default function Home() {
                         </ul>
                     </div>
 
-                    <div className="flex flex-col gap-3">
+                    <div data-aos="fade-up" className="flex flex-col gap-3">
                         <h4 className="text-[#00c0ff] text-xl">Design & Prototyping</h4>
                         <ul className="text-white" style={{ color: "white", listStyleType: "disc", display: "flex", flexDirection: "column", gap: "10px" }}>
                             <li>Figma</li>
@@ -504,7 +505,7 @@ export default function Home() {
                         </ul>
                     </div>
 
-                    <div className="flex flex-col gap-3">
+                    <div data-aos="fade-up" className="flex flex-col gap-3">
                         <h4 className="text-[#00c0ff] text-xl">Optimization & Analytics</h4>
                         <ul className="text-white" style={{ color: "white", listStyleType: "disc", display: "flex", flexDirection: "column", gap: "10px" }}>
                             <li>Google Pagespeed Insight</li>
@@ -515,7 +516,7 @@ export default function Home() {
                         </ul>
                     </div>
 
-                    <div className="flex flex-col gap-3">
+                    <div data-aos="fade-up" className="flex flex-col gap-3">
                         <h4 className="text-[#00c0ff] text-xl">SEO & Marketing</h4>
                         <ul className="text-white" style={{ color: "white", listStyleType: "disc", display: "flex", flexDirection: "column", gap: "10px" }}>
                             <li>AIOSEO</li>
@@ -524,7 +525,7 @@ export default function Home() {
                         </ul>
                     </div>
 
-                    <div className="flex flex-col gap-3">
+                    <div data-aos="fade-up" className="flex flex-col gap-3">
                         <h4 className="text-[#00c0ff] text-xl">Security & Maintenance Tools</h4>
                         <ul className="text-white" style={{ color: "white", listStyleType: "disc", display: "flex", flexDirection: "column", gap: "10px" }}>
                             <li>SSL Certificates (HTTPS Implementation)</li>
@@ -543,7 +544,7 @@ export default function Home() {
 
                 </p>
 
-                <div className="grid grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-10">
+                <div data-aos="fade-up" className="grid grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-10">
                     <img src={HtmlImg} alt="" srcset="" className="rounded-lg h-24 bg-cover" />
                     <img src={CSSImg} alt="" className="rounded-lg h-24 w-24 bg-cover" />
                     <img src={JSImg} alt="" className="rounded-lg h-24 w-24 bg-cover" />
