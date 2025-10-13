@@ -9,6 +9,7 @@ import KSE from "../assets/kseimg.png";
 import WNL from "../assets/wnlimg.png";
 import YOGIC from "../assets/yogic.png";
 import RexTechImg from "../assets/RexTechImg.png";
+import CharityImg from "../assets/charityimg.png";
 
 export default function Portfolio() {
     const [active, setActive] = useState("allPortfolio");
@@ -46,6 +47,16 @@ export default function Portfolio() {
                                     <h4 className="font-semibold text-xl" > Rex Technologies and IT Solutions</h4>
                                     <p>Personal Developer Portfolio Website detailing all about the developer and their experiences</p>
                                     <a href="https://rex-henry.vercel.app/" target="_blank" rel="noopener noreferrer" className="text-[#00c0ff] font-medium"> Visit Website </a>
+
+                                </div>
+                            </div>
+
+                            <div data-aos="fade-up" className="bg-[#3a2b71] rounded-tl-xl rounded-tr-xl ">
+                                <img src={CharityImg} alt="" className="rounded-tl-xl rounded-tr-xl  w-full bg-cover h-60" />
+                                <div className="bg-[#3a2b71] p-5 flex flex-col gap-3 text-white" >
+                                    <h4 className="font-semibold text-xl" > Charity Funds </h4>
+                                    <p>Volunteering offers opportunities to develop new skills and gain valuable experience. This can include leadership, communication, project management, and teamwork skills.</p>
+                                    <a href="https://rex-charity.vercel.app/" target="_blank" rel="noopener noreferrer" className="text-[#00c0ff] font-medium"> Visit Website </a>
 
                                 </div>
                             </div>
@@ -259,6 +270,16 @@ export default function Portfolio() {
                                     </div>
                                 </div>
 
+                            </div>
+
+                            <div data-aos="fade-up" className="bg-[#3a2b71] rounded-tl-xl rounded-tr-xl ">
+                                <img src={CharityImg} alt="" className="rounded-tl-xl rounded-tr-xl  w-full bg-cover h-60" />
+                                <div className="bg-[#3a2b71] p-5 flex flex-col gap-3 text-white" >
+                                    <h4 className="font-semibold text-xl" > Charity Funds </h4>
+                                    <p>Volunteering offers opportunities to develop new skills and gain valuable experience. This can include leadership, communication, project management, and teamwork skills.</p>
+                                    <a href="https://rex-charity.vercel.app/" target="_blank" rel="noopener noreferrer" className="text-[#00c0ff] font-medium"> Visit Website </a>
+
+                                </div>
                             </div>
                         </>
 
