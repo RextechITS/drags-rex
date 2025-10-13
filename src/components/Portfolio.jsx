@@ -9,7 +9,7 @@ import KSE from "../assets/kseimg.png";
 import WNL from "../assets/wnlimg.png";
 import YOGIC from "../assets/yogic.png";
 import RexTechImg from "../assets/RexTechImg.png";
-import CharityImg from "../assets/charityImg.png";
+import CharityImg from "../assets/CharityImg.png";
 
 export default function Portfolio() {
     const [active, setActive] = useState("allPortfolio");
