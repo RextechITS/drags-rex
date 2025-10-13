@@ -54,7 +54,7 @@ export default function Portfolio() {
                             <div data-aos="fade-up" className="bg-[#3a2b71] rounded-tl-[30px] rounded-tr-[30px] ">
                                 <img src={CharityImg} alt="" className="rounded-tl-[30px] rounded-tr-[30px]  w-full bg-cover h-60" />
                                 <div className="bg-[#3a2b71] p-5 flex flex-col gap-3 text-white" >
-                                    <h4 className="font-semibold text-xl" > Charity Funds </h4>
+                                    <h4 className="font-semibold text-xl" > Charity | NGO </h4>
                                     <p>Volunteering offers opportunities to develop new skills and gain valuable experience. This can include leadership, communication, project management, and teamwork skills.</p>
                                     <a href="https://rex-charity.vercel.app/" target="_blank" rel="noopener noreferrer" className="text-[#00c0ff] font-medium"> Visit Website </a>
 
@@ -275,7 +275,7 @@ export default function Portfolio() {
                             <div data-aos="fade-up" className="bg-[#3a2b71] rounded-tl-[30px] rounded-tr-[30px] ">
                                 <img src={CharityImg} alt="" className="rounded-tl-[30px] rounded-tr-[30px]  w-full bg-cover h-60" />
                                 <div className="bg-[#3a2b71] p-5 flex flex-col gap-3 text-white" >
-                                    <h4 className="font-semibold text-xl" > Charity Funds </h4>
+                                    <h4 className="font-semibold text-xl" > Charity | NGO </h4>
                                     <p>Volunteering offers opportunities to develop new skills and gain valuable experience. This can include leadership, communication, project management, and teamwork skills.</p>
                                     <a href="https://rex-charity.vercel.app/" target="_blank" rel="noopener noreferrer" className="text-[#00c0ff] font-medium"> Visit Website </a>
 
