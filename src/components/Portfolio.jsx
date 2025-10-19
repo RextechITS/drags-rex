@@ -260,6 +260,7 @@ export default function Portfolio() {
                             <div className="text-white text-center text-xl mb-20">All custom code projects ive recenly developed are all NDA projects... <span className="block">More Public Custom code projects coming soon... </span></div>
 
                             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 animate-fadeIn">
+
                                 <div data-aos="fade-up" className="bg-[#3a2b71] rounded-tl-[30px] rounded-tr-[30px] ">
                                     <img src={RexTechImg} alt="" className="rounded-tl-[30px] rounded-tr-[30px]  w-full bg-cover h-60" />
                                     <div className="bg-[#3a2b71] p-5 flex flex-col gap-3 text-white" >
@@ -270,17 +271,18 @@ export default function Portfolio() {
                                     </div>
                                 </div>
 
-                            </div>
+                                <div data-aos="fade-up" className="bg-[#3a2b71] rounded-tl-[30px] rounded-tr-[30px] ">
+                                    <img src={CharityImg} alt="" className="rounded-tl-[30px] rounded-tr-[30px]  w-full bg-cover h-60" />
+                                    <div className="bg-[#3a2b71] p-5 flex flex-col gap-3 text-white" >
+                                        <h4 className="font-semibold text-xl" > Charity | NGO </h4>
+                                        <p>Volunteering offers opportunities to develop new skills and gain valuable experience. This can include leadership, communication, project management, and teamwork skills.</p>
+                                        <a href="https://rex-charity.vercel.app/" target="_blank" rel="noopener noreferrer" className="text-[#00c0ff] font-medium"> Visit Website </a>
 
-                            <div data-aos="fade-up" className="bg-[#3a2b71] rounded-tl-[30px] rounded-tr-[30px] ">
-                                <img src={CharityImg} alt="" className="rounded-tl-[30px] rounded-tr-[30px]  w-full bg-cover h-60" />
-                                <div className="bg-[#3a2b71] p-5 flex flex-col gap-3 text-white" >
-                                    <h4 className="font-semibold text-xl" > Charity | NGO </h4>
-                                    <p>Volunteering offers opportunities to develop new skills and gain valuable experience. This can include leadership, communication, project management, and teamwork skills.</p>
-                                    <a href="https://rex-charity.vercel.app/" target="_blank" rel="noopener noreferrer" className="text-[#00c0ff] font-medium"> Visit Website </a>
-
+                                    </div>
                                 </div>
+
                             </div>
+
                         </>
 
 
