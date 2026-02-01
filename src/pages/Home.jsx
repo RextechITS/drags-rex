@@ -373,7 +373,7 @@ export default function Home() {
                             <div className="w-full lg:w-[80%] flex flex-col md:flex-row justify-between ">
                                 <div>
                                     <p className="text-[#00c0ff]">Front-End | WordPress Developer</p>
-                                    <p className="text-white">DragsDev - <span className="text-[#00c0ff]">CO-Founder</span> </p>
+                                    <p className="text-white">DragsDev - <span className="text-[#00c0ff]">CO-Founder & CTO</span> </p>
                                 </div>
 
                                 <div>
