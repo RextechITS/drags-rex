@@ -10,6 +10,7 @@ import WNL from "../assets/wnlimg.png";
 import YOGIC from "../assets/yogic.png";
 import RexTechImg from "../assets/RexTechImg.png";
 import CharityImg from "../assets/CharityImg.png";
+import KevonaImg from "../assets/kevonaimg.png";
 
 export default function Portfolio() {
     const [active, setActive] = useState("allPortfolio");
@@ -30,6 +31,16 @@ export default function Portfolio() {
 
                     active === "allPortfolio" && (
                         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 md:gap-14 animate-fadeIn">
+
+                             <div data-aos="fade-up" className="bg-[#3a2b71] rounded-tl-[30px] rounded-tr-[30px] ">
+                                <img src={KevonaImg} alt="" className="rounded-tl-[30px] rounded-tr-[30px]  w-full bg-cover h-60" />
+                                <div className="bg-[#3a2b71] p-5 flex flex-col gap-3 text-white" >
+                                    <h4 className="font-semibold text-xl" > Kevona AI</h4>
+                                    <p>Video Generation Artificial Intelligence webapp.</p>
+                                    <a href="https://kevona.ai" target="_blank" rel="noopener noreferrer" className="text-[#00c0ff] font-medium"> Visit Website </a>
+
+                                </div>
+                            </div>
 
                             <div data-aos="fade-up" className="bg-[#3a2b71] rounded-tl-[30px] rounded-tr-[30px] ">
                                 <img src={Ichie} alt="" className="rounded-tl-[30px] rounded-tr-[30px] w-full bg-cover h-60" />
