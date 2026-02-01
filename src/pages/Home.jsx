@@ -360,7 +360,7 @@ export default function Home() {
                                 </div>
 
                                 <div>
-                                    <p className="text-white">2024 - Present</p>
+                                    <p className="text-white">2024 - 31/12/2025</p>
                                 </div>
                             </div>
 
