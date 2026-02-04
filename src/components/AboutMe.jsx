@@ -23,7 +23,7 @@ export default function AboutMe() {
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                         <div className=" text-white h-[100px] flex items-center gap-5 border-l-[15px] border-l-[#00c0ff] pl-2">
                             {/* <p className="text-5xl font-bold"><CountUp end={12} duration={10} /> <span className="text-2xl">Successful Years</span></p> */}
-                            <Stats end={12} duration={10} label="Successful Years" />
+                            <Stats end={8} duration={10} label="Successful Years" />
                         </div>
 
                         <div>
@@ -41,6 +41,23 @@ export default function AboutMe() {
                                 <span className="relative z-10 ">Preview | Download CV</span>
                             </a>
                         </div>
+
+                        <div>
+                            <a
+                                href="/HenryNwobodo.mp4"   // path to your video file
+                                download="HenryNwobodo.mp4"  // optional custom filename
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="inline-block w-full md:w-[300px] text-center relative overflow-hidden p-5 rounded-3xl 
+                                text-white hover:text-[#00c0ff] hover:bg-white
+                                before:absolute before:inset-0 before:bg-[#00c0ff] 
+                                before:origin-bottom before:scale-y-100 before:transition-transform before:duration-700
+                                hover:before:scale-y-0"
+                            >
+                                <span className="relative z-10">Preview | Download Video</span>
+                            </a>
+                        </div>
+
                     </div>
 
                 </div>
