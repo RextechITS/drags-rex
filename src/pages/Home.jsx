@@ -21,6 +21,9 @@ import PhpImg from "../assets/php.png";
 import PhotoShop from "../assets/photoshop.png";
 import ReactImg from "../assets/react.png";
 import TailWind from "../assets/tailwind.jpg";
+import WordPress from "../assets/wordpress-icon.png";
+import WooCommerce from "../assets/woocommerce.svg";
+import WebFlow from "../assets/webflow-logo-white.svg";
 export default function Home() {
 
     useEffect(() => {
@@ -560,6 +563,9 @@ export default function Home() {
                     <img src={GitHub} alt="" className="rounded-lg h-24 w-24 bg-cover" />
                     <img src={BootStrap} alt="" className="rounded-lg h-24 w-24 bg-cover" />
                     <img src={CorelDraw} alt="" className="rounded-lg h-24 w-24 bg-cover" />
+                     <img src={WordPress} alt="" className="rounded-lg h-24 w-24 bg-cover" />
+                    <img src={WooCommerce} alt="" className="rounded-lg h-24 w-24 bg-cover" />
+                    <img src={WebFlow} alt="" className="rounded-lg h-32 w-32 bg-cover max-sm:w-60" />
                 </div>
 
             </section>
