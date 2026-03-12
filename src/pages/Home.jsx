@@ -24,6 +24,7 @@ import TailWind from "../assets/tailwind.jpg";
 import WordPress from "../assets/wordpress-icon.png";
 import WooCommerce from "../assets/woocommerce.svg";
 import WebFlow from "../assets/webflow-logo-white.svg";
+import Shopify from "../assets/shopify.svg";
 export default function Home() {
 
     useEffect(() => {
@@ -566,6 +567,8 @@ export default function Home() {
                      <img src={WordPress} alt="" className="rounded-lg h-24 w-24 bg-cover" />
                     <img src={WooCommerce} alt="" className="rounded-lg h-24 w-24 bg-cover" />
                     <img src={WebFlow} alt="" className="rounded-lg h-32 w-32 bg-cover max-sm:w-60" />
+                    <img src={Shopify} alt="" className="rounded-lg h-32 w-32 bg-cover max-sm:w-60" />
+                    
                 </div>
 
             </section>
