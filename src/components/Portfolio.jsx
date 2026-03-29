@@ -36,7 +36,7 @@ export default function Portfolio() {
                                 <img src={BreathaImg} alt="" className="rounded-tl-[30px] rounded-tr-[30px]  w-full bg-cover h-60" />
                                 <div className=" p-5 flex flex-col gap-3 text-white" >
                                     <h4 className="font-semibold text-xl" >Breatha LTD/GTE</h4>
-                                    <p>Nigerian Non-Governmental Non-profit organization</p>
+                                    <p>Nigerian Non-Governmental/Non-profit organization - Environmental Intelligence for Healthier Lives</p>
                                     <a href="https://breatha.org" target="_blank" rel="noopener noreferrer" className="text-[#00c0ff] font-medium"> Visit Website </a>
 
                                 </div>
