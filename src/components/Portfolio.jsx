@@ -11,6 +11,7 @@ import YOGIC from "../assets/yogic.png";
 import RexTechImg from "../assets/RexTechImg.png";
 import CharityImg from "../assets/CharityImg.png";
 import KevonaImg from "../assets/kevonaai.png";
+import BreathaImg from "../assets/breatha.png";
 
 export default function Portfolio() {
     const [active, setActive] = useState("allPortfolio");
@@ -31,6 +32,16 @@ export default function Portfolio() {
 
                     active === "allPortfolio" && (
                         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 md:gap-14 animate-fadeIn">
+                             <div data-aos="fade-up" className="bg-[#3a2b71] rounded-tl-[30px] rounded-tr-[30px] ">
+                                <img src={BreathaImg} alt="" className="rounded-tl-[30px] rounded-tr-[30px]  w-full bg-cover h-60" />
+                                <div className=" p-5 flex flex-col gap-3 text-white" >
+                                    <h4 className="font-semibold text-xl" >Breatha LTD/GTE</h4>
+                                    <p>Nigerian Non-Governmental Non-profit organization</p>
+                                    <a href="https://breatha.org" target="_blank" rel="noopener noreferrer" className="text-[#00c0ff] font-medium"> Visit Website </a>
+
+                                </div>
+                            </div>
+
 
                              <div data-aos="fade-up" className="bg-[#3a2b71] rounded-tl-[30px] rounded-tr-[30px] ">
                                 <img src={KevonaImg} alt="" className="rounded-tl-[30px] rounded-tr-[30px]  w-full bg-cover h-60" />
@@ -164,6 +175,16 @@ export default function Portfolio() {
                 {
                     active === ("WordPress") && (
                         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 animate-fadeIn">
+
+                            <div data-aos="fade-up" className="bg-[#3a2b71] rounded-tl-[30px] rounded-tr-[30px] ">
+                                <img src={BreathaImg} alt="" className="rounded-tl-[30px] rounded-tr-[30px]  w-full bg-cover h-60" />
+                                <div className=" p-5 flex flex-col gap-3 text-white" >
+                                    <h4 className="font-semibold text-xl" >Breatha LTD/GTE</h4>
+                                    <p>Nigerian Non-Governmental Non-profit organization</p>
+                                    <a href="https://breatha.org" target="_blank" rel="noopener noreferrer" className="text-[#00c0ff] font-medium"> Visit Website </a>
+
+                                </div>
+                            </div>
 
                             <div data-aos="fade-up" className="bg-[#3a2b71] rounded-tl-[30px] rounded-tr-[30px] ">
                                 <img src={Ichie} alt="" className="rounded-tl-[30px] rounded-tr-[30px]  w-full bg-cover h-60" />
