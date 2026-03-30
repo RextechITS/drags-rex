@@ -36,7 +36,8 @@ export default function Portfolio() {
                                 <img src={BreathaImg} alt="" className="rounded-tl-[30px] rounded-tr-[30px]  w-full bg-cover h-60" />
                                 <div className=" p-5 flex flex-col gap-3 text-white" >
                                     <h4 className="font-semibold text-xl" >Breatha LTD/GTE</h4>
-                                    <p>Nigerian Non-Governmental/Non-profit organization - Environmental Intelligence for Healthier Lives</p>
+                                    <p>Nigerian Non-Governmental/Non-profit organization - Environmental Intelligence for Healthier Lives.Making invisible pollution visible so people,
+                                         communities, and governments can protect health and the future</p>
                                     <a href="https://breatha.org" target="_blank" rel="noopener noreferrer" className="text-[#00c0ff] font-medium"> Visit Website </a>
 
                                 </div>
@@ -180,7 +181,8 @@ export default function Portfolio() {
                                 <img src={BreathaImg} alt="" className="rounded-tl-[30px] rounded-tr-[30px]  w-full bg-cover h-60" />
                                 <div className=" p-5 flex flex-col gap-3 text-white" >
                                     <h4 className="font-semibold text-xl" >Breatha LTD/GTE</h4>
-                                    <p>Nigerian Non-Governmental/Non-profit organization - Environmental Intelligence for Healthier Lives</p>
+                                    <p>Nigerian Non-Governmental/Non-profit organization - Environmental Intelligence for Healthier Lives. Making invisible pollution visible so people, 
+                                        communities, and governments can protect health and the future</p>
                                     <a href="https://breatha.org" target="_blank" rel="noopener noreferrer" className="text-[#00c0ff] font-medium"> Visit Website </a>
 
                                 </div>
@@ -297,7 +299,7 @@ export default function Portfolio() {
                                 <img src={KevonaImg} alt="" className="rounded-tl-[30px] rounded-tr-[30px]  w-full bg-cover h-60" />
                                 <div className="bg-[#3a2b71] p-5 flex flex-col gap-3 text-white" >
                                     <h4 className="font-semibold text-xl" > Kevona AI</h4>
-                                    <p>Video Generation Artificial Intelligence webapp.</p>
+                                    <p>Video Generation Artificial Intelligence webapp. Create stunning long and short form videos. </p>
                                     <a href="https://kevona.ai" target="_blank" rel="noopener noreferrer" className="text-[#00c0ff] font-medium"> Visit Website </a>
 
                                 </div>
