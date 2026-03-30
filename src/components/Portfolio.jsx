@@ -11,7 +11,7 @@ import YOGIC from "../assets/yogic.png";
 import RexTechImg from "../assets/RexTechImg.png";
 import CharityImg from "../assets/CharityImg.png";
 import KevonaImg from "../assets/kevonaai.png";
-import BreathaImg from "../assets/breatha.png";
+import BreathaImg from "../assets/breatha.webp";
 
 export default function Portfolio() {
     const [active, setActive] = useState("allPortfolio");
