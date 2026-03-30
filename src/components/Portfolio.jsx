@@ -1,16 +1,16 @@
 import { useState } from "react";
-import Ichie from "../assets/ichie.png";
-import Eso from "../assets/esoinstitute.png";
-import Dgloeke from "../assets/dgloekeimg.png";
-import SSC from "../assets/ssc.png";
-import ANIYOLINS from "../assets/aniyolinsimg.png";
-import ANAK from "../assets/anakimg.png";
-import KSE from "../assets/kseimg.png";
-import WNL from "../assets/wnlimg.png";
-import YOGIC from "../assets/yogic.png";
-import RexTechImg from "../assets/RexTechImg.png";
-import CharityImg from "../assets/CharityImg.png";
-import KevonaImg from "../assets/kevonaai.png";
+import Ichie from "../assets/ichie.webp";
+import Eso from "../assets/esoinstitute.webp";
+import Dgloeke from "../assets/dgloekeimg.webp";
+import SSC from "../assets/ssc.webp";
+import ANIYOLINS from "../assets/aniyolinsimg.webp";
+import ANAK from "../assets/anakimg.webp";
+import KSE from "../assets/kseimg.webp";
+import WNL from "../assets/wnlimg.webp";
+import YOGIC from "../assets/yogic.webp";
+import RexTechImg from "../assets/RexTechImg.webp";
+import CharityImg from "../assets/CharityImg.webp";
+import KevonaImg from "../assets/kevonaai.webp";
 import BreathaImg from "../assets/breatha.webp";
 
 export default function Portfolio() {

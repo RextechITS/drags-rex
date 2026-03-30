@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { useEffect } from "react";
-import Onwellooo from "../assets/onwellooo.png";
+import Onwellooo from "../assets/onwellooo.webp";
 import AboutMe from "../components/AboutMe";
 import ContactForm from "../components/ContactForm";
 // import CountUp from "react-countup";
