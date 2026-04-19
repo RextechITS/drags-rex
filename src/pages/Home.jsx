@@ -38,7 +38,7 @@ export default function Home() {
             <section id="hero" className="w-full flex flex-col-reverse lg:flex-row gap-2 lg:gap-5 justify-between items-center pt-40">
                 <aside className="w-full lg:w-1/2 space-y-6 text-center lg:text-left">
                     <h1 className="text-4xl lg:text-8xl text-white font-bold !leading-12 ">Henry <span className="block text-[#00c0ff]"> Nwobodo C.</span> <span className="block text-xl font-bold max-w-md:text-center"> Co-Founder <span className="text-[#00c0ff]">|</span> CTO -  DragsDev</span></h1>
-                    <h3 className="text-white text-2xl md:text-3xl font-bold ">Frontend <span className="text-[#00c0ff]">|</span> WordPress Developer</h3>
+                    <h3 className="text-white text-2xl md:text-3xl font-bold ">Frontend <span className="text-[#00c0ff]">|</span> WordPress | Shopify | Webflow Developer</h3>
                     <p className="text-white font-medium text-base md:text-xl">I specialize in developing robust platforms, including cab booking systems, e-commerce websites, and custom business applications. My focus is on writing clean code, optimizing performance, and delivering results-driven web development.</p>
                     <Link to="/contact" className="inline-block  w-full lg:w-[200px] relative overflow-hidden p-5 rounded-3xl text-center 
                         text-white hover:text-[#00c0ff] hover:bg-white
