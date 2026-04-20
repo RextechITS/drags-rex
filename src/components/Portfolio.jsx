@@ -55,11 +55,11 @@ export default function Portfolio() {
                             </div>
 
                             <div data-aos="fade-up" className="bg-[#3a2b71] rounded-tl-[30px] rounded-tr-[30px] ">
-                                <img src={Ichie} alt="" className="rounded-tl-[30px] rounded-tr-[30px] w-full bg-cover h-60" />
+                                <img src={Eso} alt="" className="rounded-tl-[30px] rounded-tr-[30px] w-full bg-cover  h-60 " />
                                 <div className=" p-5 flex flex-col gap-3 text-white" >
-                                    <h4 className="font-semibold text-xl" >Ichie Group</h4>
-                                    <p>One of the best Tech Companies in Nigeria, speacializing in web development, software development, App development etc...</p>
-                                    <a href="https://ichie.io" target="_blank" rel="noopener noreferrer" className="text-[#00c0ff] font-medium"> Visit Website </a>
+                                    <h4 className="font-semibold text-xl" >Eso InStitute</h4>
+                                    <p>An Academic Research institute website, where students of all levels can get project and seminar topics and materials</p>
+                                    <a href="https://esoinstitute.com" target="_blank" rel="noopener noreferrer" className="text-[#00c0ff] font-medium"> Visit Website </a>
 
                                 </div>
                             </div>
@@ -80,16 +80,6 @@ export default function Portfolio() {
                                     <h4 className="font-semibold text-xl" > Charity | NGO </h4>
                                     <p>Volunteering offers opportunities to develop new skills and gain valuable experience. This can include leadership, communication, project management, and teamwork skills.</p>
                                     <a href="https://rex-charity.vercel.app/" target="_blank" rel="noopener noreferrer" className="text-[#00c0ff] font-medium"> Visit Website </a>
-
-                                </div>
-                            </div>
-
-                            <div data-aos="fade-up" className="bg-[#3a2b71] rounded-tl-[30px] rounded-tr-[30px] ">
-                                <img src={Eso} alt="" className="rounded-tl-[30px] rounded-tr-[30px] w-full bg-cover  h-60 " />
-                                <div className=" p-5 flex flex-col gap-3 text-white" >
-                                    <h4 className="font-semibold text-xl" >Eso InStitute</h4>
-                                    <p>An Academic Research institute website, where students of all levels can get project and seminar topics and materials</p>
-                                    <a href="https://esoinstitute.com" target="_blank" rel="noopener noreferrer" className="text-[#00c0ff] font-medium"> Visit Website </a>
 
                                 </div>
                             </div>
@@ -134,16 +124,15 @@ export default function Portfolio() {
                                 </div>
                             </div>
 
-                            <div data-aos="fade-up" className="bg-[#3a2b71] rounded-tl-[30px] rounded-tr-[30px] ">
-                                <img src={ANAK} alt="" className="rounded-tl-[30px] rounded-tr-[30px]  w-full bg-cover h-60" />
-                                <div className="bg-[#3a2b71] p-5 flex flex-col gap-3 text-white" >
-                                    <h4 className="font-semibold text-xl" >Association of National Accountants of Kenya</h4>
-                                    <p>The Association of National Accountants of Kenya (ANAK) is the professional organization that regulates the activities of all Certified Public Accountants (the CPA (K)s) in Kenya. It was established in 1978 by the laws of Kenya under CAP 531. </p>
-                                    <a href="https://anak.co.ke/" target="_blank" rel="noopener noreferrer" className="text-[#00c0ff] font-medium"> Visit Website </a>
+                             <div data-aos="fade-up" className="bg-[#3a2b71] rounded-tl-[30px] rounded-tr-[30px] ">
+                                <img src={Ichie} alt="" className="rounded-tl-[30px] rounded-tr-[30px] w-full bg-cover h-60" />
+                                <div className=" p-5 flex flex-col gap-3 text-white" >
+                                    <h4 className="font-semibold text-xl" >Ichie Group</h4>
+                                    <p>One of the best Tech Companies in Nigeria, speacializing in web development, software development, App development etc...</p>
+                                    <a href="https://ichie.io" target="_blank" rel="noopener noreferrer" className="text-[#00c0ff] font-medium"> Visit Website </a>
 
                                 </div>
                             </div>
-
 
                             <div data-aos="fade-up" className="bg-[#3a2b71] rounded-tl-[30px] rounded-tr-[30px] ">
                                 <img src={ANIYOLINS} alt="" className="rounded-tl-[30px] rounded-tr-[30px]  w-full bg-cover h-60" />
@@ -151,6 +140,16 @@ export default function Portfolio() {
                                     <h4 className="font-semibold text-xl" >ANI YOLINS</h4>
                                     <p>We’re more than just a clothing store. We’re a global community of designers, artisans, and style lovers—redefining fashion with unique, meaningful pieces. Every purchase supports independent creators and helps build a more vibrant, sustainable future.</p>
                                     <a href="https://aniyolins.com/" target="_blank" rel="noopener noreferrer" className="text-[#00c0ff] font-medium"> Visit Website </a>
+
+                                </div>
+                            </div>
+
+                              <div data-aos="fade-up" className="bg-[#3a2b71] rounded-tl-[30px] rounded-tr-[30px] ">
+                                <img src={ANAK} alt="" className="rounded-tl-[30px] rounded-tr-[30px]  w-full bg-cover h-60" />
+                                <div className="bg-[#3a2b71] p-5 flex flex-col gap-3 text-white" >
+                                    <h4 className="font-semibold text-xl" >Association of National Accountants of Kenya</h4>
+                                    <p>The Association of National Accountants of Kenya (ANAK) is the professional organization that regulates the activities of all Certified Public Accountants (the CPA (K)s) in Kenya. It was established in 1978 by the laws of Kenya under CAP 531. </p>
+                                    <a href="https://anak.co.ke/" target="_blank" rel="noopener noreferrer" className="text-[#00c0ff] font-medium"> Visit Website </a>
 
                                 </div>
                             </div>
@@ -188,27 +187,7 @@ export default function Portfolio() {
                                 </div>
                             </div>
 
-                            <div data-aos="fade-up" className="bg-[#3a2b71] rounded-tl-[30px] rounded-tr-[30px] ">
-                                <img src={Ichie} alt="" className="rounded-tl-[30px] rounded-tr-[30px]  w-full bg-cover h-60" />
-                                <div className=" p-5 flex flex-col gap-3 text-white" >
-                                    <h4 className="font-semibold text-xl" >Ichie Group</h4>
-                                    <p>One of the best Tech Companies in Nigeria, speacializing in web development, software development, App development etc...</p>
-                                    <a href="https://ichie.io" target="_blank" rel="noopener noreferrer" className="text-[#00c0ff] font-medium"> Visit Website </a>
-
-                                </div>
-                            </div>
-
-                            <div data-aos="fade-up" className="bg-[#3a2b71] rounded-tl-[30px] rounded-tr-[30px] ">
-                                <img src={ANAK} alt="" className="rounded-tl-[30px] rounded-tr-[30px]  w-full bg-cover h-60" />
-                                <div className="bg-[#3a2b71] p-5 flex flex-col gap-3 text-white" >
-                                    <h4 className="font-semibold text-xl" >Association of National Accountants of Kenya</h4>
-                                    <p>The Association of National Accountants of Kenya (ANAK) is the professional organization that regulates the activities of all Certified Public Accountants (the CPA (K)s) in Kenya. It was established in 1978 by the laws of Kenya under CAP 531. </p>
-                                    <a href="https://anak.co.ke/" target="_blank" rel="noopener noreferrer" className="text-[#00c0ff] font-medium"> Visit Website </a>
-
-                                </div>
-                            </div>
-
-                            <div data-aos="fade-up" className="bg-[#3a2b71] rounded-tl-[30px] rounded-tr-[30px] ">
+                             <div data-aos="fade-up" className="bg-[#3a2b71] rounded-tl-[30px] rounded-tr-[30px] ">
                                 <img src={Eso} alt="" className="rounded-tl-[30px] rounded-tr-[30px] w-full bg-cover h-60" />
                                 <div className=" p-5 flex flex-col gap-3 text-white" >
                                     <h4 className="font-semibold text-xl" >Eso InStitute</h4>
@@ -218,17 +197,7 @@ export default function Portfolio() {
                                 </div>
                             </div>
 
-                            <div data-aos="fade-up" className="bg-[#3a2b71] rounded-tl-[30px] rounded-tr-[30px] ">
-                                <img src={KSE} alt="" className="rounded-tl-[30px] rounded-tr-[30px]  w-full bg-cover h-60" />
-                                <div className="bg-[#3a2b71] p-5 flex flex-col gap-3 text-white" >
-                                    <h4 className="font-semibold text-xl" >Kenya Society of Engineers</h4>
-                                    <p>The Kenya Society of Engineers (KSE) is the professional organization that regulates the activities of all Engineers in Kenya.  </p>
-                                    <a href="https://kse.co.ke/" target="_blank" rel="noopener noreferrer" className="text-[#00c0ff] font-medium"> Visit Website </a>
-
-                                </div>
-                            </div>
-
-                            <div data-aos="fade-up" className="bg-[#3a2b71] rounded-tl-[30px] rounded-tr-[30px] ">
+                             <div data-aos="fade-up" className="bg-[#3a2b71] rounded-tl-[30px] rounded-tr-[30px] ">
                                 <img src={YOGIC} alt="" className="rounded-tl-[30px] rounded-tr-[30px]  w-full bg-cover h-60" />
                                 <div className="bg-[#3a2b71] p-5 flex flex-col gap-3 text-white" >
                                     <h4 className="font-semibold text-xl" >Yogicescape - Yoga & Wellness Studio Berlin </h4>
@@ -264,6 +233,36 @@ export default function Portfolio() {
                                     <h4 className="font-semibold text-xl" >ANI YOLINS</h4>
                                     <p>We’re more than just a clothing store. We’re a global community of designers, artisans, and style lovers—redefining fashion with unique, meaningful pieces. Every purchase supports independent creators and helps build a more vibrant, sustainable future.</p>
                                     <a href="https://aniyolins.com/" target="_blank" rel="noopener noreferrer" className="text-[#00c0ff] font-medium"> Visit Website </a>
+
+                                </div>
+                            </div>
+
+                            <div data-aos="fade-up" className="bg-[#3a2b71] rounded-tl-[30px] rounded-tr-[30px] ">
+                                <img src={Ichie} alt="" className="rounded-tl-[30px] rounded-tr-[30px]  w-full bg-cover h-60" />
+                                <div className=" p-5 flex flex-col gap-3 text-white" >
+                                    <h4 className="font-semibold text-xl" >Ichie Group</h4>
+                                    <p>One of the best Tech Companies in Nigeria, speacializing in web development, software development, App development etc...</p>
+                                    <a href="https://ichie.io" target="_blank" rel="noopener noreferrer" className="text-[#00c0ff] font-medium"> Visit Website </a>
+
+                                </div>
+                            </div>
+
+                            <div data-aos="fade-up" className="bg-[#3a2b71] rounded-tl-[30px] rounded-tr-[30px] ">
+                                <img src={ANAK} alt="" className="rounded-tl-[30px] rounded-tr-[30px]  w-full bg-cover h-60" />
+                                <div className="bg-[#3a2b71] p-5 flex flex-col gap-3 text-white" >
+                                    <h4 className="font-semibold text-xl" >Association of National Accountants of Kenya</h4>
+                                    <p>The Association of National Accountants of Kenya (ANAK) is the professional organization that regulates the activities of all Certified Public Accountants (the CPA (K)s) in Kenya. It was established in 1978 by the laws of Kenya under CAP 531. </p>
+                                    <a href="https://anak.co.ke/" target="_blank" rel="noopener noreferrer" className="text-[#00c0ff] font-medium"> Visit Website </a>
+
+                                </div>
+                            </div>
+
+                            <div data-aos="fade-up" className="bg-[#3a2b71] rounded-tl-[30px] rounded-tr-[30px] ">
+                                <img src={KSE} alt="" className="rounded-tl-[30px] rounded-tr-[30px]  w-full bg-cover h-60" />
+                                <div className="bg-[#3a2b71] p-5 flex flex-col gap-3 text-white" >
+                                    <h4 className="font-semibold text-xl" >Kenya Society of Engineers</h4>
+                                    <p>The Kenya Society of Engineers (KSE) is the professional organization that regulates the activities of all Engineers in Kenya.  </p>
+                                    <a href="https://kse.co.ke/" target="_blank" rel="noopener noreferrer" className="text-[#00c0ff] font-medium"> Visit Website </a>
 
                                 </div>
                             </div>
