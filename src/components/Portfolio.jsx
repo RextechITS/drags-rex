@@ -88,7 +88,7 @@ export default function Portfolio() {
                             <div data-aos="fade-up" className="bg-[#3a2b71] rounded-tl-[30px] rounded-tr-[30px] ">
                                 <img src={SSPImg} alt="" className="rounded-tl-[30px] rounded-tr-[30px]  w-full bg-cover h-60" />
                                 <div className=" p-5 flex flex-col gap-3 text-white" >
-                                    <h4 className="font-semibold text-xl" >Society Of Saint Paul</h4>
+                                    <h4 className="font-semibold text-xl" >Society Of Saint Paul (E-commerce)</h4>
                                     <p>An International Catholic Congregation of priests, brothers and sisters. This is a community of faith, hope and love. An online store
                                          for devotionals and Books and Accessories</p>
                                     <a href="https://stpaulsonline.ng" target="_blank" rel="noopener noreferrer" className="text-[#00c0ff] font-medium"> Visit Website </a>
@@ -212,7 +212,7 @@ export default function Portfolio() {
                             <div data-aos="fade-up" className="bg-[#3a2b71] rounded-tl-[30px] rounded-tr-[30px] ">
                                 <img src={SSPImg} alt="" className="rounded-tl-[30px] rounded-tr-[30px]  w-full bg-cover h-60" />
                                 <div className=" p-5 flex flex-col gap-3 text-white" >
-                                    <h4 className="font-semibold text-xl" >Society Of Saint Paul</h4>
+                                    <h4 className="font-semibold text-xl" >Society Of Saint Paul (E-commerce)</h4>
                                     <p>An International Catholic Congregation of priests, brothers and sisters. This is a community of faith, hope and love. An online store
                                          for devotionals and Books and Accessories</p>
                                     <a href="https://stpaulsonline.ng" target="_blank" rel="noopener noreferrer" className="text-[#00c0ff] font-medium"> Visit Website </a>
