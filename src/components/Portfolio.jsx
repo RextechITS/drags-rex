@@ -12,7 +12,7 @@ import RexTechImg from "../assets/RexTechImg.webp";
 import CharityImg from "../assets/CharityImg.webp";
 import KevonaImg from "../assets/kevonaai.webp";
 import BreathaImg from "../assets/breatha.webp";
-import SSPImg from "../assets/ssp.webp";
+import SSPImg from "../assets/SSP.webp";
 
 export default function Portfolio() {
     const [active, setActive] = useState("allPortfolio");
