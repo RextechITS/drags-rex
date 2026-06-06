@@ -12,6 +12,7 @@ import RexTechImg from "../assets/RexTechImg.webp";
 import CharityImg from "../assets/CharityImg.webp";
 import KevonaImg from "../assets/kevonaai.webp";
 import BreathaImg from "../assets/breatha.webp";
+import SSPImg from "../assets/ssp.webp";
 
 export default function Portfolio() {
     const [active, setActive] = useState("allPortfolio");
@@ -80,6 +81,17 @@ export default function Portfolio() {
                                     <h4 className="font-semibold text-xl" > Charity | NGO </h4>
                                     <p>Volunteering offers opportunities to develop new skills and gain valuable experience. This can include leadership, communication, project management, and teamwork skills.</p>
                                     <a href="https://rex-charity.vercel.app/" target="_blank" rel="noopener noreferrer" className="text-[#00c0ff] font-medium"> Visit Website </a>
+
+                                </div>
+                            </div>
+
+                            <div data-aos="fade-up" className="bg-[#3a2b71] rounded-tl-[30px] rounded-tr-[30px] ">
+                                <img src={SSPImg} alt="" className="rounded-tl-[30px] rounded-tr-[30px]  w-full bg-cover h-60" />
+                                <div className=" p-5 flex flex-col gap-3 text-white" >
+                                    <h4 className="font-semibold text-xl" >Society Of Saint Paul</h4>
+                                    <p>An International Catholic Congregation of priests, brothers and sisters. This is a community of faith, hope and love. An online store
+                                         for devotionals and Books and Accessories</p>
+                                    <a href="https://stpaulsonline.ng" target="_blank" rel="noopener noreferrer" className="text-[#00c0ff] font-medium"> Visit Website </a>
 
                                 </div>
                             </div>
@@ -193,6 +205,17 @@ export default function Portfolio() {
                                     <h4 className="font-semibold text-xl" >Eso InStitute</h4>
                                     <p>An Academic Research institute website, where students of all levels can get project and seminar topics and materials for all departments</p>
                                     <a href="https://esoinstitute.com" target="_blank" rel="noopener noreferrer" className="text-[#00c0ff] font-medium"> Visit Website </a>
+
+                                </div>
+                            </div>
+
+                            <div data-aos="fade-up" className="bg-[#3a2b71] rounded-tl-[30px] rounded-tr-[30px] ">
+                                <img src={SSPImg} alt="" className="rounded-tl-[30px] rounded-tr-[30px]  w-full bg-cover h-60" />
+                                <div className=" p-5 flex flex-col gap-3 text-white" >
+                                    <h4 className="font-semibold text-xl" >Society Of Saint Paul</h4>
+                                    <p>An International Catholic Congregation of priests, brothers and sisters. This is a community of faith, hope and love. An online store
+                                         for devotionals and Books and Accessories</p>
+                                    <a href="https://stpaulsonline.ng" target="_blank" rel="noopener noreferrer" className="text-[#00c0ff] font-medium"> Visit Website </a>
 
                                 </div>
                             </div>
