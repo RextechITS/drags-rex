@@ -29,7 +29,7 @@ import ahref from "../assets/ahrefs.png";
 import GoogleAnalytics from "../assets/GoogleAnalytics.webp";
 import googleAdsense from "../assets/googleadsense.webp";
 import googleSearch from "../assets/googlesearch.webp";
-import Gtm from "../assets/gtm.webp";
+import GoogleTagManager from "../assets/GoogleTagManager.webp";
 import SemRush from "../assets/semrush.webp";
 
 export default function Home() {
@@ -587,7 +587,7 @@ export default function Home() {
                     <img src={WebFlow} alt="" className="rounded-lg h-32 w-32 bg-cover max-sm:w-60" />
                     <img src={Shopify} alt="" className="rounded-lg h-32 w-32 bg-cover max-sm:w-60" />
                     <img src={googleAdsense} alt="" className="rounded-lg h-24 w-24 bg-cover" />
-                    <img src={Gtm} alt="" className="rounded-lg h-24 w-24 bg-cover" />
+                    <img src={GoogleTagManager} alt="" className="rounded-lg h-24 w-24 bg-cover" />
                     
                     
                 </div>
