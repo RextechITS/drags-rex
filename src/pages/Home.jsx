@@ -25,6 +25,13 @@ import WordPress from "../assets/wordpress-icon.png";
 import WooCommerce from "../assets/woocommerce.svg";
 import WebFlow from "../assets/webflow-logo-white.svg";
 import Shopify from "../assets/shopify.svg";
+import ahref from "../assets/ahrefs.png";
+import Ga4 from "../assets/ga4.webp";
+import googleAdsense from "../assets/googleadsense.webp";
+import googleSearch from "../assets/googlesearch.webp";
+import Gtm from "../assets/gtm.webp";
+import SemRush from "../assets/semrush.webp";
+
 export default function Home() {
 
     useEffect(() => {
@@ -34,11 +41,12 @@ export default function Home() {
 
     return (
         <div className="p-3 md:p-8 w-[95vw] lg:w-[80vw] mx-auto space-y-20">
+           
             {/* hero section */}
             <section id="hero" className="w-full flex flex-col-reverse lg:flex-row gap-2 lg:gap-5 justify-between items-center pt-40">
                 <aside className="w-full lg:w-1/2 space-y-6 text-center lg:text-left">
                     <h1 className="text-4xl lg:text-8xl text-white font-bold !leading-12 ">Henry <span className="block text-[#00c0ff]"> Nwobodo C.</span> <span className="block text-xl font-bold max-w-md:text-center"> Co-Founder <span className="text-[#00c0ff]">|</span> CTO -  DragsDev</span></h1>
-                    <h3 className="text-white text-2xl md:text-3xl font-bold ">Frontend <span className="text-[#00c0ff]">|</span> WordPress <span className="text-[#00c0ff]">|</span> Shopify <span className="text-[#00c0ff]">|</span> Webflow Developer</h3>
+                    <h3 className="text-white text-2xl md:text-3xl font-bold ">Frontend <span className="text-[#00c0ff]">|</span> WordPress <span className="text-[#00c0ff]">|</span> Shopify <span className="text-[#00c0ff]">|</span> Webflow Developer <span className="text-[#00c0ff]">|</span> SEO Expert </h3>
                     <p className="text-white font-medium text-base md:text-xl">I specialize in developing robust platforms, including cab booking systems, e-commerce websites, and custom business applications. My focus is on writing clean code, optimizing performance, and delivering results-driven web development.</p>
                     <Link to="/contact" className="inline-block  w-full lg:w-[200px] relative overflow-hidden p-5 rounded-3xl text-center 
                         text-white hover:text-[#00c0ff] hover:bg-white
@@ -523,10 +531,16 @@ export default function Home() {
 
                     <div data-aos="fade-up" className="flex flex-col gap-3">
                         <h4 className="text-[#00c0ff] text-xl">SEO & Marketing</h4>
-                        <ul className="text-white" style={{ color: "white", listStyleType: "disc", display: "flex", flexDirection: "column", gap: "10px" }}>
-                            <li>AIOSEO</li>
-                            <li>Meta Descriptions</li>
+                         <ul className="text-white" style={{ color: "white", listStyleType: "disc", display: "flex", flexDirection: "column", gap: "10px" }}>
+                            <li>ahrefs</li>
+                            <li>SEMRush</li>
+                            <li>Google Analytics</li>
+                            <li>Google Search Console</li>
+                            <li>Google Tag Manager</li>
+                            <li>AIOSEO, Yoast, Rank Math</li>
+                            <li>Facebook Pixels</li>
                             <li>AI</li>
+                            <li>Google Adsense</li>
                         </ul>
                     </div>
 
@@ -552,22 +566,29 @@ export default function Home() {
                 <div data-aos="fade-up" className="grid grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-10">
                     <img src={HtmlImg} alt="" srcset="" className="rounded-lg h-24 bg-cover" />
                     <img src={CSSImg} alt="" className="rounded-lg h-24 w-24 bg-cover" />
+                    <img src={Ga4} alt="" className="rounded-lg h-24 w-24 bg-cover" />
                     <img src={JSImg} alt="" className="rounded-lg h-24 w-24 bg-cover" />
                     <img src={TailWind} alt="" className="rounded-lg h-24 w-24 bg-cover" />
-                    <img src={ReactImg} alt="" className="rounded-lg h-24 w-24 bg-cover" />
+                     <img src={ahref} alt="" className="rounded-lg h-24 w-24 bg-cover" />
+                     <img src={ReactImg} alt="" className="rounded-lg h-24 w-24 bg-cover" />
                     <img src={PhotoShop} alt="" className="rounded-lg h-24 w-24 bg-cover" />
                     <img src={AlpineJs} alt="" className="rounded-lg h-24 w-24 bg-cover" />
-                    <img src={PhpImg} alt="" className="rounded-lg h-24 w-24 bg-cover" />
+                     <img src={googleSearch} alt="" className="rounded-lg h-24 w-24 bg-cover" />
+                     <img src={PhpImg} alt="" className="rounded-lg h-24 w-24 bg-cover" />
                     <img src={MySQL} alt="" className="rounded-lg h-24 w-24 bg-cover" />
                     <img src={Laravel} alt="" className="rounded-lg h-24 w-24 bg-cover" />
                     <img src={JQuery} alt="" className="rounded-lg h-24 w-24 bg-cover" />
                     <img src={GitHub} alt="" className="rounded-lg h-24 w-24 bg-cover" />
+                    <img src={SemRush} alt="" className="rounded-lg h-24 w-24 bg-cover" />
                     <img src={BootStrap} alt="" className="rounded-lg h-24 w-24 bg-cover" />
                     <img src={CorelDraw} alt="" className="rounded-lg h-24 w-24 bg-cover" />
                      <img src={WordPress} alt="" className="rounded-lg h-24 w-24 bg-cover" />
                     <img src={WooCommerce} alt="" className="rounded-lg h-24 w-24 bg-cover" />
                     <img src={WebFlow} alt="" className="rounded-lg h-32 w-32 bg-cover max-sm:w-60" />
                     <img src={Shopify} alt="" className="rounded-lg h-32 w-32 bg-cover max-sm:w-60" />
+                    <img src={googleAdsense} alt="" className="rounded-lg h-24 w-24 bg-cover" />
+                    <img src={Gtm} alt="" className="rounded-lg h-24 w-24 bg-cover" />
+                    
                     
                 </div>
 
