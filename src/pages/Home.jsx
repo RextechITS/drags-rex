@@ -261,6 +261,34 @@ export default function Home() {
 
                     </div>
 
+                     <div data-aos="fade-down">
+                        <div className="flex justify-between text-white">
+                            <p className="">Search Engine Optimization </p>
+                            <p className="text-[#00c0ff]">70%</p>
+                        </div>
+                        <progress value={70} max={100} className="progress-custom w-full h-2 mt-6 rounded-lg overflow-hidden "></progress>
+
+                    </div>
+
+                    <div data-aos="fade-up">
+                        <div className="flex justify-between text-white">
+                            <p className="">Shopify</p>
+                            <p className="text-[#00c0ff]">50%</p>
+                        </div>
+                        <progress value={50} max={100} className="progress-custom w-full h-2 mt-6 rounded-lg overflow-hidden "></progress>
+
+                    </div>
+
+                     <div data-aos="fade-down">
+                        <div className="flex justify-between text-white">
+                            <p className="">Webflow </p>
+                            <p className="text-[#00c0ff]">50%</p>
+                        </div>
+                        <progress value={50} max={100} className="progress-custom w-full h-2 mt-6 rounded-lg overflow-hidden "></progress>
+
+                    </div>
+
+
 
                 </div>
 
