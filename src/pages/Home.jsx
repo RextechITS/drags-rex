@@ -26,7 +26,7 @@ import WooCommerce from "../assets/woocommerce.svg";
 import WebFlow from "../assets/webflow-logo-white.svg";
 import Shopify from "../assets/shopify.svg";
 import ahref from "../assets/ahrefs.png";
-import Ga4 from "../assets/ga4.webp";
+import GoogleAnalytics from "../assets/GoogleAnalytics.webp";
 import googleAdsense from "../assets/googleadsense.webp";
 import googleSearch from "../assets/googlesearch.webp";
 import Gtm from "../assets/gtm.webp";
@@ -566,7 +566,7 @@ export default function Home() {
                 <div data-aos="fade-up" className="grid grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-10">
                     <img src={HtmlImg} alt="" srcset="" className="rounded-lg h-24 bg-cover" />
                     <img src={CSSImg} alt="" className="rounded-lg h-24 w-24 bg-cover" />
-                    <img src={Ga4} alt="" className="rounded-lg h-24 w-24 bg-cover" />
+                    <img src={GoogleAnalytics} alt="" className="rounded-lg h-24 w-24 bg-cover" />
                     <img src={JSImg} alt="" className="rounded-lg h-24 w-24 bg-cover" />
                     <img src={TailWind} alt="" className="rounded-lg h-24 w-24 bg-cover" />
                      <img src={ahref} alt="" className="rounded-lg h-24 w-24 bg-cover" />
