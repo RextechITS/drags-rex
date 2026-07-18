@@ -200,9 +200,9 @@ export default function Home() {
                     <div data-aos="fade-down">
                         <div className="flex justify-between text-white">
                             <p className="">ReactJs</p>
-                            <p className="text-[#00c0ff]">40%</p>
+                            <p className="text-[#00c0ff]">60%</p>
                         </div>
-                        <progress value={40} max={100} className="progress-custom w-full h-2 mt-6 rounded-lg overflow-hidden "></progress>
+                        <progress value={60} max={100} className="progress-custom w-full h-2 mt-6 rounded-lg overflow-hidden "></progress>
 
                     </div>
 
